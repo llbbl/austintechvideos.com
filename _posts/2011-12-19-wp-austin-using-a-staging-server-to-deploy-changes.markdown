@@ -32,8 +32,7 @@ comments:
     MjAxNC0wMS0xMCAxNzo0MjowMCAtMDYwMA==
   date_gmt: !binary |-
     MjAxNC0wMS0xMCAxNzo0MjowMCAtMDYwMA==
-  content: This video doesn't load?!
+  content: This video doesn't load?!\
+videoid: ytc5pxvMn3k
 ---
-<p>http://www.youtube.com/watch?v=ytc5pxvMn3k</p>
-<p><a id="more"></a><a id="more-153"></a></p>
 <p>WP Engine</p>

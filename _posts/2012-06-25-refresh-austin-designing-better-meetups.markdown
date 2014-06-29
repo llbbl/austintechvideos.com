@@ -33,11 +33,11 @@ comments:
     MjAxMi0wOC0zMSAyMzowMzowMCAtMDUwMA==
   content: ! 'Hi, I''m Vitorio, the speaker.  I''ve made the raw slides and presenters
     notes available here, as a 12MB PDF: http://vi.to/refresh-austin-february-2012-talk'
+videoid: NxvuCDySGBc
 ---
-<p>http://www.youtube.com/watch?v=NxvuCDySGBc</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-422"></a></p>
 <p>Presented by Vitorio Miliano (@vitor_io)</p>
-<p>Maybe “better” means more organized, or having more attendees, or doing what your attendees want. Whatever your goals, Vitorio has practical, actionable suggestions on how to improve the quality of your user group, meetup or local community. Miliano researched the Austin design community for an essay, “Local Communities In Practice and By Design.” He’ll share common problems user groups face, ways to discover what your meetup is made of, and how to use that information to make it better.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>Maybe “better” means more organized, or having more attendees, or doing what your attendees want. Whatever your
+goals, Vitorio has practical, actionable suggestions on how to improve the quality of your user group, meetup or
+local community. Miliano researched the Austin design community for an essay, “Local Communities In Practice and
+By Design.” He’ll share common problems user groups face, ways to discover what your meetup is made of, and how
+to use that information to make it better.</p>

@@ -21,8 +21,9 @@ categories:
 - AWPUG
 tags: []
 comments: []
+videoid: QXVsHWyrOW8
 ---
-<p>http://www.youtube.com/watch?v=QXVsHWyrOW8</p>
-<p><a id="more"></a><a id="more-473"></a></p>
-<p>But seriously, we're going to start off with Joe Boutros filling you in about what's new in Django 1.4 including alllll about the new timezone support.  After a short intermission Jeremy Boyd will be presenting the next installment of our Django beginner's series: Views!</p>
+<p>But seriously, we're going to start off with Joe Boutros filling you in about what's new in Django 1.4
+ including alllll about the new timezone support.  After a short intermission Jeremy Boyd will be presenting
+ the next installment of our Django beginner's series: Views!</p>
 <p>04.26.2012</p>

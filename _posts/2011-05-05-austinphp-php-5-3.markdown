@@ -24,8 +24,9 @@ tags:
 - austinphp
 - php
 comments: []
+videoid: 2o-FoOHlJmQ
 ---
-<p>http://www.youtube.com/watch?v=2o-FoOHlJmQ</p>
-<p><a id="more"></a><a id="more-37"></a></p>
-<p>If you are interested in learning more about the new features that have been added, than this talk is for you! Josh is going to be going over the goodies that were added with PHP 5.3 including: namespaces, late static binding, new date functionality, lambda functions and closures.</p>
+<p>If you are interested in learning more about the new features that have been added, than this talk is
+for you! Josh is going to be going over the goodies that were added with PHP 5.3 including: namespaces,
+late static binding, new date functionality, lambda functions and closures.</p>
 <p>03-08-2011</p>

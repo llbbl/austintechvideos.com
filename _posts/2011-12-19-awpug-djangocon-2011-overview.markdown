@@ -24,8 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: 6nWqc-BWehs
 ---
-<p>http://www.youtube.com/watch?v=6nWqc-BWehs</p>
-<p><a id="more"></a><a id="more-140"></a></p>
 <p>Niran Babalola</p>
 <p>09.22.2011</p>

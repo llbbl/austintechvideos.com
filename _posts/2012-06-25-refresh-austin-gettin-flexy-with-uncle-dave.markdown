@@ -24,10 +24,10 @@ tags:
 - responsive
 - design
 comments: []
+videoid: xXfXWojc_Mw
 ---
-<p>http://www.youtube.com/watch?v=xXfXWojc_Mw</p>
-<p><a id="more"></a><a id="more-493"></a></p>
-<p>Dave Rupert, lead developer at Paravel and co-host of the Shop Talk Show, gives essential tips and tricks on becoming flexible in responsive web design.</p>
+<p>Dave Rupert, lead developer at Paravel and co-host of the Shop Talk Show, gives essential tips and tricks on
+becoming flexible in responsive web design.</p>
 <p>&nbsp;</p>
 <p>http://www.youtube.com/watch?v=LMRXH3OpA-o</p>
 <p>&nbsp;</p>

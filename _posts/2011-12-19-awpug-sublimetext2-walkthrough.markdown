@@ -24,7 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: MKu8kX_gO70
 ---
-<p>http://www.youtube.com/watch?v=MKu8kX_gO70<br />
-<a id="more"></a><a id="more-149"></a>Srini: SublimeText2 walkthrough<br />
+<p>Srini: SublimeText2 walkthrough<br />
 09.22.2011</p>

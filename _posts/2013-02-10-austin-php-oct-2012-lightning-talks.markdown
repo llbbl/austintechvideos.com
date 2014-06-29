@@ -22,9 +22,8 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: v4f6DCK7BNI
 ---
-<p>http://www.youtube.com/watch?v=v4f6DCK7BNI</p>
-<p><a id="more"></a><a id="more-536"></a></p>
 <p>Dan Defelippi talks about why off the shelf frameworks are almost always better than building your own framework.</p>
 <p>Programming Templates</p>
 <p>http://www.youtube.com/watch?v=YQd0HWCUkZE</p>

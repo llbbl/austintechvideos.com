@@ -24,9 +24,7 @@ tags:
 - wordpress
 - wp
 comments: []
+videoid: PRdcG_lCk0E
 ---
-<p>http://www.youtube.com/watch?v=PRdcG_lCk0E</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-156"></a></p>
 <p>From the Q&amp;A Lightning talks. Clark Wimberly speaking.</p>
 <p>10.04.2011</p>

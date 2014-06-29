@@ -22,8 +22,8 @@ categories:
 tags:
 - django
 comments: []
+videoid: Zk3VWLTzJ7Q
 ---
-<p>http://www.youtube.com/watch?v=Zk3VWLTzJ7Q</p>
-<p><a id="more"></a><a id="more-480"></a></p>
-<p>Kevin Mooney is going to keep our Django basics talks moving along with Templates! You can follow along with all the commit details on github.</p>
+<p>Kevin Mooney is going to keep our Django basics talks moving along with Templates! You can follow along with all
+the commit details on github.</p>
 <p>05.24.2012</p>

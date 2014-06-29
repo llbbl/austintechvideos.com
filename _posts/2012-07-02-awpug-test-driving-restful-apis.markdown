@@ -21,9 +21,9 @@ categories:
 - AWPUG
 tags: []
 comments: []
+videoid: ZlZuXaEbqiQ
 ---
-<p>http://www.youtube.com/watch?v=ZlZuXaEbqiQ</p>
-<p><a id="more"></a><a id="more-513"></a></p>
-<p>Speaking of refreshing, this month we'll hear uStudio's own Josh Marshall discuss Tornado and RESTful APIs in his talk, "Test Driving a REST API with Tornado."</p>
+<p>Speaking of refreshing, this month we'll hear uStudio's own Josh Marshall discuss Tornado and RESTful
+APIs in his talk, "Test Driving a REST API with Tornado."</p>
 <p>http://www.youtube.com/watch?v=F4JCkoAiqG8</p>
 <p>06.28.2012</p>

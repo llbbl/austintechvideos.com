@@ -24,8 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: DMPbGbTSHEE
 ---
-<p>http://www.youtube.com/watch?v=DMPbGbTSHEE</p>
-<p><a id="more"></a><a id="more-98"></a></p>
 <p>Gary Wilson from UT goes over how they are leveraging Python</p>
 <p>07-28-2011</p>

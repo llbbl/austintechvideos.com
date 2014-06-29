@@ -23,10 +23,12 @@ tags:
 - nosql
 - mongo
 comments: []
+videoid: NhWySVTNOA0
 ---
-<p>http://www.youtube.com/watch?v=NhWySVTNOA0</p>
-<p><a id="more"></a><a id="more-442"></a></p>
-<p>&nbsp;</p>
-<p>For our next meeting, we'll be hosting Ben Beecher, an engineer from 10gen. He'll be talking about GridFS, the mechanism used to store large files in MongoDB. The GridFS spec provides a mechanism for transparently dividing a large file among multiple documents. This allows MongoDB to efficiently store large objects, and in the case of especially large files, such as videos, permits range operations. In this talk, Ben will introduce the concept of GridFS and deliver a demo.</p>
+<p>For our next meeting, we'll be hosting Ben Beecher, an engineer from 10gen. He'll be talking about GridFS,
+the mechanism used to store large files in MongoDB. The GridFS spec provides a mechanism for transparently dividing
+a large file among multiple documents. This allows MongoDB to efficiently store large objects, and in the case of
+especially large files, such as videos, permits range operations. In this talk, Ben will introduce the concept of
+ GridFS and deliver a demo.</p>
 <p>&nbsp;</p>
 <p>02.01.2012</p>

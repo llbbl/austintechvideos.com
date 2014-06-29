@@ -24,8 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: noOI8wrNS_g
 ---
-<p>http://www.youtube.com/watch?v=noOI8wrNS_g</p>
-<p><a id="more"></a><a id="more-191"></a></p>
 <p>Travis Swicegood of the Texas Tribune will be talking about getting your local development environment setup.</p>
 <p>07.28.2011</p>

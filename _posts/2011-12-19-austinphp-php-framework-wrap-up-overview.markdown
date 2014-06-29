@@ -24,8 +24,8 @@ tags:
 - austinphp
 - php
 comments: []
+videoid: 3t8E4zOYV8A
 ---
-<p>http://www.youtube.com/watch?v=3t8E4zOYV8A<br />
-<a id="more"></a><a id="more-134"></a></p>
-<p>We will briefly go back over all the frameworks that we covered, just in case you missed one of the presentations. Open discussion of PHP frameworks. Will have a panel of PHP experts to answer your questions.<br />
+<p>We will briefly go back over all the frameworks that we covered, just in case you missed one of the presentations.
+ Open discussion of PHP frameworks. Will have a panel of PHP experts to answer your questions.<br />
 09.13.2011</p>

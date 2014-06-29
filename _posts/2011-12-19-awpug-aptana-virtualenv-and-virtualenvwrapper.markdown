@@ -24,8 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: 3AFQ8U_-WLU
 ---
-<p>http://www.youtube.com/watch?v=3AFQ8U_-WLU</p>
-<p><a id="more"></a><a id="more-142"></a></p>
 <p>Brandon Taylor: Aptana, virtualenv, and virtualenvwrapper</p>
 <p>09.22.2011</p>

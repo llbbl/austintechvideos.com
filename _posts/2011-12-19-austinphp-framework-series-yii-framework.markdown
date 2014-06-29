@@ -34,10 +34,9 @@ comments:
     MjAxMi0wMi0wNyAwMToxNjowMCAtMDYwMA==
   content: Yii is an amazing framework.  We utilized Yii as the framework for our
     open source crm application Zurmo (zurmo.org).  We love it.
+videoid: 4MlkJW8vN8s
 ---
-<p>http://www.youtube.com/watch?v=4MlkJW8vN8s</p>
-<p><a id="more"></a><a id="more-96"></a></p>
-<p>&nbsp;</p>
 <p>AustinPHP Frameworks Series.</p>
-<p>Yii Framework implementation of the CRUD project. We implemented a simple blogging system that does Create Read Update Delete operations using 5 different PHP frameworks.</p>
+<p>Yii Framework implementation of the CRUD project. We implemented a simple blogging system that does
+Create Read Update Delete operations using 5 different PHP frameworks.</p>
 <p>07.12.2011</p>

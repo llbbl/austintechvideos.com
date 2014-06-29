@@ -21,9 +21,8 @@ categories:
 - Austin on Rails
 tags: []
 comments: []
+videoid: vCqfg_L1Y1w
 ---
-<p>http://www.youtube.com/watch?v=vCqfg_L1Y1w</p>
-<p><a id="more"></a><a id="more-517"></a></p>
 <p>http://www.youtube.com/watch?v=DWfCpFu6_MQ</p>
 <p>http://www.youtube.com/watch?v=Tee3jZx9wJ4</p>
 <p>http://www.youtube.com/watch?v=nmsFrS3fvJ4</p>

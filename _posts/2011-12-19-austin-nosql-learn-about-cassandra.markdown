@@ -24,10 +24,11 @@ tags:
 - nosql
 - cassandra
 comments: []
+videoid: XwKw_FLnpvA
 ---
-<p>http://www.youtube.com/watch?v=XwKw_FLnpvA</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-167"></a></p>
 <p>For our next meetup on October 5th we've got Tyler Hobbs from DataStax.</p>
-<p>Tyler will be talking about Apache Cassandra, a hybrid of Amazon's Dynamo, which offers scalability, simplicity, and availability, with the data model of Google's Big Table, which goes far beyond what a key-value store can offer. This talk will cover Cassandra at a high level and show how it makes real-time queries on big data possible.</p>
+<p>Tyler will be talking about Apache Cassandra, a hybrid of Amazon's Dynamo, which offers scalability,
+simplicity, and availability, with the data model of Google's Big Table, which goes far beyond what a
+key-value store can offer. This talk will cover Cassandra at a high level and show how it makes real-time
+queries on big data possible.</p>
 <p>10.05.2011</p>

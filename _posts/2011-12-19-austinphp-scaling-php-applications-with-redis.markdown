@@ -24,9 +24,9 @@ tags:
 - austinphp
 - php
 comments: []
+videoid: ahT006O7S9k
 ---
-<p>http://www.youtube.com/watch?v=ahT006O7S9k<br />
-<a id="more"></a><a id="more-169"></a>* Intro / overview of Redis<br />
+* Intro / overview of Redis<br />
 * Redis data structures<br />
 * "Cookbook-style" PHP strategies for scaling<br />
 Josh Butts speaking</p>

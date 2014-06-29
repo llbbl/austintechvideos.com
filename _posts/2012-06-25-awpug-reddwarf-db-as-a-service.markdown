@@ -21,9 +21,9 @@ categories:
 - AWPUG
 tags: []
 comments: []
+videoid: JxDrrMzDIc8
 ---
-<p>http://www.youtube.com/watch?v=JxDrrMzDIc8</p>
-<p><a id="more"></a><a id="more-482"></a></p>
-<p>Craig Vyvial will be talking about Reddwarf. It's a DB as a service, so you can create MySQL DBs and maintain the database or infrastructure with a REST API. This stuff is truly awesome.</p>
+<p>Craig Vyvial will be talking about Reddwarf. It's a DB as a service, so you can create MySQL DBs and
+maintain the database or infrastructure with a REST API. This stuff is truly awesome.</p>
 <p>05.24.2012</p>
 <p>&nbsp;</p>

@@ -23,8 +23,7 @@ tags:
 - GeekAustin
 - devops
 comments: []
+videoid: jPVAZsWAKlk
 ---
-<p>http://www.youtube.com/watch?v=jPVAZsWAKlk</p>
-<p><a id="more"></a><a id="more-31"></a></p>
 <p>Matt Ray, Evangelist for Opscode and a fellow Austinite, will walk us through the basics of Chef.</p>
 <p>02.19.2011</p>

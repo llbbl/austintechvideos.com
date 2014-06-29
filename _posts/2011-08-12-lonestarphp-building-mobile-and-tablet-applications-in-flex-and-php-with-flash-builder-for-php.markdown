@@ -26,8 +26,9 @@ tags:
 - php
 - lonestarphp
 comments: []
+videoid: muLpnVUG1z8
 ---
-<p>http://www.youtube.com/watch?v=muLpnVUG1z8</p>
-<p><a id="more"></a><a id="more-84"></a></p>
-<p>&nbsp;</p>
-<p>The future of computing has a significant focus on making sure that mobile and hand-held devices have access to the same data that is available on a standard web page or desktop app. In this talk we will explore how you can use the new Flash Builder for PHP to build data-aware mobile and tablet applications using Flash/AIR and Flex. We will cover the basics of MXML, ActionScript and implementing remote access calls to a PHP-driven backend solution.</p>
+<p>The future of computing has a significant focus on making sure that mobile and hand-held devices have access
+to the same data that is available on a standard web page or desktop app. In this talk we will explore how you
+can use the new Flash Builder for PHP to build data-aware mobile and tablet applications using Flash/AIR and Flex.
+We will cover the basics of MXML, ActionScript and implementing remote access calls to a PHP-driven backend solution.</p>

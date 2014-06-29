@@ -23,9 +23,8 @@ tags:
 - refresh
 - startups
 comments: []
+videoid: So33gTlw3Ew
 ---
-<p>http://www.youtube.com/watch?v=So33gTlw3Ew</p>
-<p><a id="more"></a><a id="more-438"></a></p>
-<p>&nbsp;</p>
-<p>How much do you now about startup venture capital? We'll have representatives from VC funds, incubators and angel investors sharing insights and answering questions.<em> </em></p>
+<p>How much do you now about startup venture capital? We'll have representatives from VC funds, incubators and angel
+investors sharing insights and answering questions.</p>
 <p>04.10.2012</p>

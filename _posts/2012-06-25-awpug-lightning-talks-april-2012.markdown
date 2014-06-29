@@ -21,9 +21,8 @@ categories:
 - AWPUG
 tags: []
 comments: []
+videoid: HS8atlL2loA
 ---
-<p>http://www.youtube.com/watch?v=HS8atlL2loA</p>
-<p><a id="more"></a><a id="more-477"></a></p>
 <p>http://www.youtube.com/watch?v=YIJkS1bBc-I</p>
 <p>http://www.youtube.com/watch?v=7Kdt0ELbWNY</p>
 <p>skip ahead 1 minute</p>

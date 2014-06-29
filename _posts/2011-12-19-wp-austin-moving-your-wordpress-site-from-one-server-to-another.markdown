@@ -25,9 +25,8 @@ tags:
 - wp
 - migration
 comments: []
+videoid: qByf_FagSx4
 ---
-<p>http://www.youtube.com/watch?v=qByf_FagSx4</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-165"></a></p>
-<p>We're going to do a live move of a WordPress site, going through some basic steps of migrating the files and the database in the process.</p>
+<p>We're going to do a live move of a WordPress site, going through some basic steps of migrating the
+files and the database in the process.</p>
 <p>11.01.2011</p>

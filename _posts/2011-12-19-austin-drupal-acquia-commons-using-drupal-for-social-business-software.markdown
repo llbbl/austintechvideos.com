@@ -23,9 +23,8 @@ categories:
 tags:
 - drupal
 comments: []
+videoid: w0YFq34uiZA
 ---
-<p>http://www.youtube.com/watch?v=w0YFq34uiZA<br />
-<a id="more"></a><a id="more-122"></a></p>
 <p>Acquia's Kieran Lal is making a special stop in Austin to spread the word about Acquia Commons.</p>
 <p>Social business is no longer a nice to have, but now a business imperative to improve customer engagement, build loyal partner networks, and improve internal collaboration. All of the most popular web sites on the Internet today — the most visited and most engaging — are either social networks or online communities. It is now a leading trend that these social elements take place within a company or organization's own online space, providing a number of user and stakeholder benefits.</p>
 <p>Acquia Commons is the [open alternative] social business software providing, enabling organizations to quickly build content-rich communities. A distribution of Drupal, Commons provides greater flexibility and faster innovation than traditional proprietary solutions - all with a lower total cost.</p>

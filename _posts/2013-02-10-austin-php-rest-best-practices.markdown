@@ -21,8 +21,7 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: sWdv5yFxHvA
 ---
-<p>http://www.youtube.com/watch?v=sWdv5yFxHvA</p>
-<p><a id="more"></a><a id="more-546"></a></p>
 <p>Keith Casey talks about REST Best Practices</p>
 <p>08.09.2012</p>

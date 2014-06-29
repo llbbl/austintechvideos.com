@@ -24,7 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: Z4ZGJE9MYlg
 ---
-<p>http://www.youtube.com/watch?v=Z4ZGJE9MYlg<br />
-<a id="more"></a><a id="more-147"></a>Michell Vogel: Learning Python the Hard Way<br />
+<p><a id="more-147"></a>Michell Vogel: Learning Python the Hard Way<br />
 09.22.2011</p>

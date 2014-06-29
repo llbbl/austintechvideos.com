@@ -23,9 +23,9 @@ tags:
 - js
 - angularjs
 comments: []
+videoid: YuhGlWUtCGw
 ---
-<p>http://www.youtube.com/watch?v=YuhGlWUtCGw</p>
-<p><a id="more"></a><a id="more-624"></a></p>
 <p>http://www.youtube.com/watch?v=5ggHNh66CQ4</p>
-<p>Hacking together a first AngularJS app in the Wells Branch Library, at the Austin AngularJS group's first meetup.</p>
+<p>Hacking together a first AngularJS app in the Wells Branch Library, at the Austin AngularJS
+group's first meetup.</p>
 <p>4.4.2013 (<a href="http://www.meetup.com/AngularJS/events/111200152/">meetup</a>)</p>

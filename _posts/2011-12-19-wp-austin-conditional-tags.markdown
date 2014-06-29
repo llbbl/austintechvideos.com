@@ -24,10 +24,10 @@ tags:
 - wordpress
 - wp
 comments: []
+videoid: mdJpWs8ZEoE
 ---
-<p>http://www.youtube.com/watch?v=mdJpWs8ZEoE</p>
-<p><a id="more"></a><a id="more-105"></a></p>
-<p>&nbsp;</p>
-<p>Let's talk Conditional Tags. How can you drop some logic into your theme? Want something to show up on only certain pages? certain categories?</p>
-<p>WordPress's Conditional Tags are the key. Clark Wimberly will give us a brief run-through of these powerful tags at this month's meetup.</p>
+<p>Let's talk Conditional Tags. How can you drop some logic into your theme? Want something to show up on
+only certain pages? certain categories?</p>
+<p>WordPress's Conditional Tags are the key. Clark Wimberly will give us a brief run-through of these powerful
+tags at this month's meetup.</p>
 <p>06-07-2011</p>

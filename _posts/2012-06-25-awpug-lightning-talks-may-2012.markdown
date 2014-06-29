@@ -21,11 +21,8 @@ categories:
 - AWPUG
 tags: []
 comments: []
+videoid: hCMVWajom00
 ---
-<p>http://www.youtube.com/watch?v=hCMVWajom00</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-484"></a></p>
-<p>&nbsp;</p>
 <p>http://www.youtube.com/watch?v=tANG_k0VwQ8</p>
 <p>http://www.youtube.com/watch?v=n88WZ8qsnnQ</p>
 <p>&nbsp;</p>

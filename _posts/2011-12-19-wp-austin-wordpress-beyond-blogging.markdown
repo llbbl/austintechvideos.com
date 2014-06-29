@@ -23,8 +23,7 @@ categories:
 tags:
 - wordpress
 comments: []
+videoid: fg3iBkC9aAE
 ---
-<p>http://www.youtube.com/watch?v=fg3iBkC9aAE<br />
-<a id="more"></a><a id="more-161"></a></p>
 <p>Jo Carrington</p>
 <p>10.04.2011</p>

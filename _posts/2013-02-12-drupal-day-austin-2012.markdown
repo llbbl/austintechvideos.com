@@ -22,9 +22,8 @@ categories:
 - ADUG
 tags: []
 comments: []
+videoid: uuIGguI1erg
 ---
-<p>http://www.youtube.com/watch?v=uuIGguI1erg<br />
-<a id="more"></a><a id="more-552"></a><br />
 CMS Confidential: Tales of Love and Hate from the Experts</p>
 <p>http://www.youtube.com/watch?v=qhmGiqL-res<br />
 Making Publishing Rock!<br />

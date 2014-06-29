@@ -24,8 +24,8 @@ tags:
 - awpug
 - python
 comments: []
+videoid: Ea7Ca1Mnz_s
 ---
-<p>http://www.youtube.com/watch?v=Ea7Ca1Mnz_s</p>
-<p><a id="more"></a><a id="more-179"></a></p>
-<p>Jason Goldberg from Optaros is going to tell you all about haystack. Afterwards, you'll go home and add search to all your projects.</p>
+<p>Jason Goldberg from Optaros is going to tell you all about haystack. Afterwards, you'll go home
+ and add search to all your projects.</p>
 <p>10.27.2011</p>

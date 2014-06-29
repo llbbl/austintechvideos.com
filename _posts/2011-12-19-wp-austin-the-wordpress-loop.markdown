@@ -22,8 +22,9 @@ categories:
 tags:
 - wordpress
 comments: []
+videoid: l1DE1cEXi-E
 ---
 <p>Part 1</p>
-<p>http://www.youtube.com/watch?v=l1DE1cEXi-E</p>
+<p><a href="http://www.youtube.com/watch?v=l1DE1cEXi-E">http://www.youtube.com/watch?v=l1DE1cEXi-E</a></p>
 <p>Part 2</p>
-<p>http://www.youtube.com/watch?v=lZkOovZi28s</p>
+<p><a href="http://www.youtube.com/watch?v=lZkOovZi28s">http://www.youtube.com/watch?v=lZkOovZi28s</a></p>

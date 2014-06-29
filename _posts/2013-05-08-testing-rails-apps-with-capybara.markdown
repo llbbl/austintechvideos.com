@@ -25,8 +25,7 @@ tags:
 - TDD
 - Testing
 comments: []
+videoid: YGOcpcQMJfM
 ---
-<p>http://www.youtube.com/watch?v=YGOcpcQMJfM</p>
-<p><a id="more"></a><a id="more-609"></a></p>
 <p>Daniel Hedrick gives an introduction to testing web applications in Rails with Capybara.</p>
 <p>4.8.2013 (<a href="http://www.meetup.com/Austin-Ruby-on-Rails/events/104118992/">meetup</a>)</p>

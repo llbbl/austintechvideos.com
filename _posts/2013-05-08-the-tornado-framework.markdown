@@ -23,8 +23,9 @@ tags:
 - awpug
 - python
 comments: []
+videoid: KwskdDt5iLk
 ---
-<p>http://www.youtube.com/watch?v=KwskdDt5iLk</p>
-<p><a id="more"></a><a id="more-599"></a></p>
-<p>Josh Marshall of uStudio, standing in for Jeremy Kelley of Indeed.com, gives a talk on Tornado, one of the more popular callback-style frameworks in Python, by demonstrating the various components of the library.</p>
+<p>Josh Marshall of uStudio, standing in for Jeremy Kelley of Indeed.com, gives a talk on Tornado,
+one of the more popular callback-style frameworks in Python, by demonstrating the various
+components of the library.</p>
 <p>2.28.2013 (<a href="http://www.meetup.com/austinwebpythonusergroup/events/105172032/">meetup</a>)</p>

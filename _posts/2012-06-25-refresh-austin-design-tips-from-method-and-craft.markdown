@@ -24,8 +24,7 @@ tags:
 - design
 - photoshop
 comments: []
+videoid: KQjl1ZylCXU
 ---
-<p>http://www.youtube.com/watch?v=KQjl1ZylCXU</p>
-<p><a id="more"></a><a id="more-497"></a></p>
 <p>Phil Coffman goes over some PhotoShop tips and tricks.</p>
 <p>06.12.2012</p>

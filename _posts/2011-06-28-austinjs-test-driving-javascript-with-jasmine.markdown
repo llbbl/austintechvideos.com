@@ -84,9 +84,11 @@ comments:
     MjAxMi0wMS0xMCAwNDo0NDowMCAtMDYwMA==
   content: ! 'Hmm your youtube version is only 720p, mental note to self to reexport
     your video. '
+videoid: CswgfGhnTg8
 ---
-<p>http://www.youtube.com/watch?v=CswgfGhnTg8</p>
-<p><a id="more"></a><a id="more-69"></a></p>
 <p>We also have Austin local via Chicago, Tim Tyrrell chatting up Jasmine, the uber-cool JavaScript unit testing framework.</p>
-<p>Test-Driving Javascript with Jasmine -- There seems to be a tendency for developers to do an excellent job of unit testing their server-side code but leaving client-side javascript as the new "spaghetti" dumping ground and it doesn't have to be that way! Jasmine is a nifty Javascript BDD testing framework with a RSpec-like syntax that easily integrates with vanilla JavaScript, jQuery plugins, and even Rails applications.</p>
+<p>Test-Driving Javascript with Jasmine -- There seems to be a tendency for developers to do an excellent job of
+ unit testing their server-side code but leaving client-side javascript as the new "spaghetti" dumping ground and
+  it doesn't have to be that way! Jasmine is a nifty Javascript BDD testing framework with a RSpec-like syntax that
+  easily integrates with vanilla JavaScript, jQuery plugins, and even Rails applications.</p>
 <p>06.21.2011</p>

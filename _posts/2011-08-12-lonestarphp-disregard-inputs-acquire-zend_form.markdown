@@ -25,8 +25,7 @@ tags:
 - php
 - lonestarphp
 comments: []
+videoid: pxuVR4l6CcU
 ---
-<p>http://www.youtube.com/watch?v=pxuVR4l6CcU</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-86"></a></p>
-<p>Learn in-depth Zend_Form techniques to automate and power your applications forms, with or without using Zend Framework. Learn everything from setup of a form to custom elements and organizational best practices.</p>
+<p>Learn in-depth Zend_Form techniques to automate and power your applications forms, with or without using
+ Zend Framework. Learn everything from setup of a form to custom elements and organizational best practices.</p>

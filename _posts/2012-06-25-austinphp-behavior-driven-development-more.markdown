@@ -25,9 +25,9 @@ tags:
 - TDD
 - Testing
 comments: []
+videoid: CxwhND3dWfs
 ---
-<p>http://www.youtube.com/watch?v=CxwhND3dWfs</p>
-<p><a id="more"></a><a id="more-460"></a></p>
-<p>&nbsp;</p>
-<p>Jeff Winesett will be giving a similar talk he gave last year on Test Driven Development, except this year he will be talking also about Behavior Driven Development. BDD is a agile software development technique that encourages collaboration between developers and QA or the business side.</p>
+<p>Jeff Winesett will be giving a similar talk he gave last year on Test Driven Development, except this year
+he will be talking also about Behavior Driven Development. BDD is a agile software development technique that
+encourages collaboration between developers and QA or the business side.</p>
 <p>11.08.2011</p>

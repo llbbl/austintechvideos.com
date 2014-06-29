@@ -27,8 +27,8 @@ tags:
 - scraping
 - dom
 comments: []
+videoid: -7vkE9BHVcg
 ---
-<p>http://youtu.be/-7vkE9BHVcg</p>
-<p><a id="more"></a><a id="more-644"></a></p>
-<p>Logan Lindquist (also the creator of AustinTechVideos) talks about what you can do with SimpleXML and DOM. Web scraping, XML generation, configuration management, APIs .. etc.</p>
+<p>Logan Lindquist (also the creator of AustinTechVideos) talks about what you can do with SimpleXML and
+DOM. Web scraping, XML generation, configuration management, APIs .. etc.</p>
 <p>5.9.2013 (<a href="http://www.meetup.com/austinphp/events/110203872/">meetup</a>)</p>

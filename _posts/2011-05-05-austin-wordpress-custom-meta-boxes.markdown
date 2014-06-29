@@ -24,8 +24,8 @@ tags:
 - wordpress
 - wp
 comments: []
+videoid: wbsBNmmxr74
 ---
-<p>http://www.youtube.com/watch?v=wbsBNmmxr74</p>
-<p><a id="more"></a><a id="more-39"></a></p>
+
 <p>On April 5th, Pat Ramsey will present "Custom Meta Boxes and Using Them in Your Theme." He will demonstrate how to use the 'More Fields' plugin and the Custom Meta Boxes code that's with TwentyTen CRM. The balance of the meeting will be informal Q&amp;A time. Bring in your questions and we'll try to help each other suss out the answers. There is a projector and screen available in addition to large whiteboards for the sketching of ideas and note-taking and one-on-one discussions.</p>
 <p>04-05-2011</p>

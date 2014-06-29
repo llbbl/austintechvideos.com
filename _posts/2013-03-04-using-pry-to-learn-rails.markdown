@@ -37,9 +37,9 @@ comments:
     Mair https://github.com/banister)  helpfully tweeted the answer to the conundrum
     to me:  ''title="foo'' didnt work inside Post context is because without self.title=
     it defines a local variable"'
+videoid: qt25Hs4QfSM
 ---
-<p>http://www.youtube.com/watch?v=qt25Hs4QfSM</p>
-<p><a id="more"></a><a id="more-575"></a></p>
 <p>Stacy Vlasits convincing us why we must use Pry as an IRB replacement for plain Ruby as well as for the Rails console.</p>
-<p>Stacy will also give a brief summary of how he uses Sublime Text to work with Terminal, as well as other interesting Packages for Sublime Text that will delight you.</p>
+<p>Stacy will also give a brief summary of how he uses Sublime Text to work with Terminal, as well as other
+interesting Packages for Sublime Text that will delight you.</p>
 <p>02.11.2013</p>

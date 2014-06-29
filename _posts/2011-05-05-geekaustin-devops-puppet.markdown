@@ -23,8 +23,8 @@ tags:
 - GeekAustin
 - devops
 comments: []
+videoid: NRLMp-R9GrQ
 ---
-<p>http://www.youtube.com/watch?v=NRLMp-R9GrQ</p>
-<p><a id="more"></a><a id="more-29"></a></p>
-<p>Jeff McCune of Puppet Labs will be on hand to take us through a deep dive into Puppet. It is a happy coincidence that Jeff already happened to be in Austin this week giving training on Puppet.</p>
+<p>Jeff McCune of Puppet Labs will be on hand to take us through a deep dive into Puppet. It is a happy coincidence
+that Jeff already happened to be in Austin this week giving training on Puppet.</p>
 <p>02.19.2011</p>

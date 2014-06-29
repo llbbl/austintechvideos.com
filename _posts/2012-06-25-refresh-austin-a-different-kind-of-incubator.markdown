@@ -24,9 +24,12 @@ tags:
 - incubator
 - startup
 comments: []
+videoid: Cw5OpeoUdXM
 ---
-<p>http://www.youtube.com/watch?v=Cw5OpeoUdXM</p>
-<p><a id="more"></a><a id="more-463"></a></p>
-<p>The Nerditorium is an experiment in micro-budget, tribal entrepreneurship focusing on incubating technology and design projects. Working from the premise that the traditional model of work is broken, The Nerditorium asks: What’s possible when you surround yourself with people you admire and respect, collaborate on projects you believe in, and cut out life’s day-to-day chores? Ben and Cedric will share their experiences, lessons learned and current project</p>
+<p>The Nerditorium is an experiment in micro-budget, tribal entrepreneurship focusing on incubating technology
+and design projects. Working from the premise that the traditional model of work is broken, The Nerditorium asks:
+What’s possible when you surround yourself with people you admire and respect, collaborate on projects you believe
+in, and cut out life’s day-to-day chores? Ben and Cedric will share their experiences, lessons learned and current
+project</p>
 <p>&nbsp;</p>
 <p>01.05.2012</p>

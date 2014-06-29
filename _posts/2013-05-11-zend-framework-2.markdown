@@ -24,8 +24,7 @@ tags:
 - php
 - zf
 comments: []
+videoid: qALNlotBCfE
 ---
-<p>http://youtu.be/qALNlotBCfE</p>
-<p><a id="more"></a><a id="more-627"></a></p>
 <p>Zend Framework's Ralph Schindler stops by to talk about ZF2</p>
 <p>4.11.2013 (<a href="http://www.meetup.com/austinphp/events/104664392/">meetup</a>)</p>

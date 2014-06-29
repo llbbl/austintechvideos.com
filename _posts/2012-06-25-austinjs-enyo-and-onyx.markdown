@@ -21,11 +21,11 @@ categories:
 - AustinJS
 tags: []
 comments: []
+videoid: 83kIZy2bhHM
 ---
-<p>http://www.youtube.com/watch?v=83kIZy2bhHM</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-465"></a></p>
-<p>Ben’s a developer platform architect at HP’s webOS group. He been doing developer activities as part of the Palm &amp; webOS world since leading the Codewarrior for Palm OS team at Metrowerks in the early 2000′s. He’s also worked at Mozilla in their mobile browser and done open source hardware hacking with NYC Resistor in Brooklyn.</p>
+<p>Ben’s a developer platform architect at HP’s webOS group. He been doing developer activities as part of the
+Palm &amp; webOS world since leading the Codewarrior for Palm OS team at Metrowerks in the early 2000′s. He’s also
+worked at Mozilla in their mobile browser and done open source hardware hacking with NYC Resistor in Brooklyn.</p>
 <p>Straightforward and to the point, Ben will be chatting with us on how to build web apps with Enyo and Onyx.</p>
 <p>04.17.2012</p>
 <p>&nbsp;</p>

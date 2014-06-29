@@ -21,8 +21,7 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: IiKoDpxGquE
 ---
-<p>http://www.youtube.com/watch?v=IiKoDpxGquE</p>
-<p><a id="more"></a><a id="more-509"></a></p>
 <p>Robert Ristroph from Four Kitchens will be here to talk about Drupal performance</p>
 <p>06.14.2012</p>

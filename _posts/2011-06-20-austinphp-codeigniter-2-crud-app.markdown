@@ -25,8 +25,8 @@ tags:
 - php
 - ci
 comments: []
+videoid: Sc-B0mGOSJs
 ---
-<p>http://www.youtube.com/watch?v=Sc-B0mGOSJs</p>
-<p><a id="more"></a><a id="more-57"></a></p>
-<p>CodeIgniter Framework implementation of the CRUD project. We implemented a simple blogging system that does Create Read Update Delete operations using 5 different PHP frameworks.</p>
+<p>CodeIgniter Framework implementation of the CRUD project. We implemented a simple blogging system that does
+ Create Read Update Delete operations using 5 different PHP frameworks.</p>
 <p>05.10.2011</p>

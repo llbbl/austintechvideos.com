@@ -24,11 +24,9 @@ tags:
 - nodejs
 - node
 comments: []
+videoid: gf8-xAyEvF8
 ---
-<p>http://www.youtube.com/watch?v=gf8-xAyEvF8</p>
-<p><a id="more"></a><a id="more-488"></a></p>
-<p>&nbsp;</p>
-<p>Lalit will be talking about how Goodybag builds API driven products. He’ll go over the underlying technologies used  (including node) and the architecture to support the platform and infrastructure that Goodybag is laying down</p>
+<p>Lalit will be talking about how Goodybag builds API driven products. He’ll go over the underlying technologies
+used  (including node) and the architecture to support the platform and infrastructure that Goodybag is laying down</p>
 <p>http://www.youtube.com/watch?v=oJOQirYlsLc</p>
-<p>&nbsp;</p>
 <p>06.05.2012</p>

@@ -21,9 +21,8 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: QJ2kOC6FlV4
 ---
-<p>http://www.youtube.com/watch?v=QJ2kOC6FlV4</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-467"></a></p>
-<p>Josh is going to be speaking on what is new in PHP 5.4. The new web server, closures etc. I expect we will also hear what is on the road map for the future.</p>
+<p>Josh is going to be speaking on what is new in PHP 5.4. The new web server, closures etc. I expect we will also
+hear what is on the road map for the future.</p>
 <p>05.10.2012</p>

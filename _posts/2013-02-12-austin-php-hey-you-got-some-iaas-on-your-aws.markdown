@@ -22,9 +22,8 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: 9EUJTd2s1g4
 ---
-<p>http://www.youtube.com/watch?v=9EUJTd2s1g4</p>
-<p><a id="more"></a><a id="more-565"></a></p>
 <p>Jeff Winesett will be speaking about IaaS with AWS</p>
 <p><a href="http://www.youtube.com/watch?v=a1RHWXiUI0I">Q&A</a></p>
 <p>09.13.2012</p>

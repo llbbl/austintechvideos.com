@@ -24,7 +24,6 @@ tags:
 - js
 - austinjs
 comments: []
+videoid: A-eu14Apb5o
 ---
-<p>http://www.youtube.com/watch?v=A-eu14Apb5o</p>
-<p><a id="more"></a><a id="more-138"></a></p>
 <p>Alex Sexton gives his talk from CapitolJS at the AustinJavaScript User Group.</p>

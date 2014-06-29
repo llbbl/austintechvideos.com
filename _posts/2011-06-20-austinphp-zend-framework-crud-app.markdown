@@ -26,10 +26,8 @@ tags:
 - zend
 - zf
 comments: []
+videoid: Th_2Cw1Y05Q
 ---
-<p>http://www.youtube.com/watch?v=Th_2Cw1Y05Q</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-55"></a></p>
-<p>&nbsp;</p>
-<p>Zend Framework 1.x implementation of the CRUD project. We implemented a simple blogging system that does Create Read Update Delete operations using 5 different PHP frameworks.</p>
+<p>Zend Framework 1.x implementation of the CRUD project. We implemented a simple blogging system that does
+Create Read Update Delete operations using 5 different PHP frameworks.</p>
 <p>04-12-2011</p>

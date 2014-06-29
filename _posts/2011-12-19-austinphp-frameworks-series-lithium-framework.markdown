@@ -24,9 +24,8 @@ tags:
 - austinphp
 - php
 comments: []
+videoid: LrTUDLe1PaM
 ---
-<p>http://www.youtube.com/watch?v=LrTUDLe1PaM</p>
-<p><a id="more"></a><a id="more-118"></a></p>
-<p>&nbsp;</p>
-<p>Lithium Framework implementation of the CRUD project. We implemented a simple blogging system that does Create Read Update Delete operations using 5 different PHP frameworks.</p>
+<p>Lithium Framework implementation of the CRUD project. We implemented a simple blogging system that does
+Create Read Update Delete operations using 5 different PHP frameworks.</p>
 <p>06.14.2011</p>

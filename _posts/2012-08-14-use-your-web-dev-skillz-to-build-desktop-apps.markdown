@@ -23,9 +23,10 @@ tags:
 - refresh
 - austin-refresh
 comments: []
+videoid: BW9iJEhBPps
 ---
-<p>http://www.youtube.com/watch?v=BW9iJEhBPps</p>
-<p><a id="more"></a><a id="more-525"></a></p>
 <p>Presented by Ryan Joy (@atxryan), Microsoft developer evangelist<br />
-Want to convert your single-page web apps to a desktop environment? Come learn how to apply your development skillset-- including HTML5, JavaScript and CSS as well as media queries, templating and data binding--to desktop application development. </p>
+Want to convert your single-page web apps to a desktop environment? Come learn how to apply your
+development skillset-- including HTML5, JavaScript and CSS as well as media queries, templating and data
+binding--to desktop application development. </p>
 <p>07.10.2012</p>

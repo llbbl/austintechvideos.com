@@ -23,8 +23,7 @@ tags:
 - api
 - rest
 comments: []
+videoid: pvZ98vG_RAQ
 ---
-<p>http://youtu.be/pvZ98vG_RAQ</p>
-<p><a id="more"></a><a id="more-635"></a></p>
 <p>Keith Casey of Twilio gives an introduction to RESTful APIs at the inaugural meeting of AustinAPI.</p>
 <p>4.24.2013 (<a href="http://www.meetup.com/Austin-Homegrown-API/events/111305872/">meetup</a>)</p>

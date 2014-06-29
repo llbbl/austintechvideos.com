@@ -25,6 +25,7 @@ tags:
 - php
 - lonestarphp
 comments: []
+
 ---
 <p>[vimeo clip_id="27450381" width="800" height="500"]</p>
 <p><a id="more"></a><a id="more-80"></a></p>

@@ -21,9 +21,9 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: FNPp6W511Tk
 ---
-<p>http://www.youtube.com/watch?v=FNPp6W511Tk</p>
-<p><a id="more"></a><a id="more-529"></a></p>
 <p>Josh is going to be talking about the Standard PHP Library or the SPL as it is also known.</p>
-<p>I am hoping that he will briefly cover Iterators before talking about the SPL datastructures and Interfaces, but we will see. Perhaps he will teach us how to throw the InvalidArugmentException in real life.</p>
+<p>I am hoping that he will briefly cover Iterators before talking about the SPL datastructures and Interfaces,
+ but we will see. Perhaps he will teach us how to throw the InvalidArugmentException in real life.</p>
 <p>07.12.2012</p>

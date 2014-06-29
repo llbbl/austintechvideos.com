@@ -24,8 +24,8 @@ tags:
 - awpug
 - python
 comments: []
+videoid: 5p1LKT_uPrs
 ---
-<p>http://www.youtube.com/watch?v=5p1LKT_uPrs</p>
-<p><a id="more"></a><a id="more-181"></a></p>
-<p>Aditya Rustgi is gonna scare the hell outta you with a talk about testing, why you should love it, and some tools to help you embrace it.</p>
+<p>Aditya Rustgi is gonna scare the hell outta you with a talk about testing, why you should love it,
+and some tools to help you embrace it.</p>
 <p>10.27.2011</p>

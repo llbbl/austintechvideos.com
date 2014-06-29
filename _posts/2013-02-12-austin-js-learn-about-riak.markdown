@@ -21,8 +21,7 @@ categories:
 - Austin NoSQL
 tags: []
 comments: []
+videoid: wA1YMwzEeR4
 ---
-<p>http://www.youtube.com/watch?v=wA1YMwzEeR4</p>
-<p><a id="more"></a><a id="more-555"></a></p>
 <p>Seth Thomas of Basho</p>
 <p>09.05.2012</p>

@@ -24,9 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: 4GMDG8Jci1k
 ---
-<p>http://www.youtube.com/watch?v=4GMDG8Jci1k</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-151"></a></p>
 <p>Norman Richards: Great looking docs with sphinx, rst2pdf, and custom syntax highlighting with pygments</p>
 <p>09.22.2011</p>

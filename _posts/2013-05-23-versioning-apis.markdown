@@ -33,8 +33,8 @@ comments:
   date_gmt: !binary |-
     MjAxMy0wNS0yMyAxNTo1MzowMCAtMDUwMA==
   content: I find this video extremely difficult to masturbate to
+videoid: XRCx1LuIGo4
 ---
-<p>http://www.youtube.com/watch?v=XRCx1LuIGo4</p>
-<p><a id="more"></a><a id="more-656"></a></p>
-<p>BazaarVoice Developer Evangelist <a href="http://twitter.com/urthen">Michael Pratt</a> talks about how to version...and how to not version...and how not to version...your APIs at the second meetup of AustinAPI.</p>
+<p>BazaarVoice Developer Evangelist <a href="http://twitter.com/urthen">Michael Pratt</a> talks about how
+to version...and how to not version...and how not to version...your APIs at the second meetup of AustinAPI.</p>
 <p>5.22.13 (<a href="http://www.meetup.com/Austin-Homegrown-API/events/116163412/">meetup</a>)</p>

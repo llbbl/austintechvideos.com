@@ -24,8 +24,7 @@ tags:
 - awpug
 - python
 comments: []
+videoid: 9Gn4NHjqvXg
 ---
-<p>http://www.youtube.com/watch?v=9Gn4NHjqvXg</p>
-<p><a id="more"></a><a id="more-175"></a></p>
 <p>Overview of the copperegg service</p>
 <p>10.27.2011</p>

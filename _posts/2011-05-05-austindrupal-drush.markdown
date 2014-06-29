@@ -23,9 +23,9 @@ categories:
 tags:
 - drupal
 comments: []
+videoid: XHiAL5dFP54
 ---
-<p>http://www.youtube.com/watch?v=XHiAL5dFP54</p>
-<p><a id="more"></a><a id="more-27"></a></p>
+
 <p>Chris Ruppel from Four Kitchens will be giving the low down about Drush Make and talking about his awesome new project DrushMake.me, a click-and-point tool for quickly creating custom Drupal installations.</p>
 <p>Details</p>
 <p>It only takes a few Drupal installs to notice the pointless repetition of the process. First you download Drupal core, then the latest modules, your favorite base/admin themes, other libraries for JavaScript or WYSIWYG editing, and so on... Why should you have to do this over and over? The answer is: you don't.</p>

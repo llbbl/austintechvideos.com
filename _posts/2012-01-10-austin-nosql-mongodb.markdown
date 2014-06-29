@@ -35,8 +35,6 @@ comments:
   content: ! '[...] is sponsoring their meeting this month. If you missed the last
     talk AustinTechVideos has it posted here. This month Ben Beecher will be talking
     about how MongoDB uses GridFS to efficiently store large [...]'
+videoid: UyJy7pXlJdk
 ---
-<p>http://www.youtube.com/watch?v=UyJy7pXlJdk</p>
-<p><a id="more"></a><a id="more-271"></a></p>
-<p>&nbsp;</p>
 <p>10gen talking MongoDB at the uShip offices.</p>

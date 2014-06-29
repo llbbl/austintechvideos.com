@@ -21,9 +21,10 @@ categories:
 - AustinTechVideos
 tags: []
 comments: []
+videoid: gNYiVXWIeq8
 ---
-<p>http://www.youtube.com/watch?v=gNYiVXWIeq8<br />
-<a id="more"></a><a id="more-603"></a>Kyle Simpson (<a href="http://twitter.com/getify">@getify</a>) talks about unleashing JavaScript performance.</p>
+Kyle Simpson (<a href="http://twitter.com/getify">@getify</a>) talks about
+unleashing JavaScript performance.</p>
 <p>The talk included discussion of:</p>
 <ul>
 <li>CSS Selectors</li>

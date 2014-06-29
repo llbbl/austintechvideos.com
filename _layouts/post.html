@@ -5,7 +5,6 @@ layout: default
 
   <header class="post-header">
     <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
@@ -20,7 +19,7 @@ layout: default
                   <iframe width='100%' height='100%' src='http://www.youtube.com/embed/{{page.videoid}}?rel=0' data-src='//www.youtube.com/embed/{{page.videoid}}?rel=0' frameborder='0' allowfullscreen></iframe>
               </div>
           </div>
-          <div class='postdescription'>" + page.description + "</div>
+
       </div>
 
       {{ content }}

@@ -25,8 +25,9 @@ tags:
 - php
 - lonestarphp
 comments: []
+videoid: 34ZyoHNnTVg
 ---
-<p>http://www.youtube.com/watch?v=34ZyoHNnTVg</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-82"></a></p>
-<p>PHP is filled with many amazing functions/classes that we use daily (PDO, array_*, etc.). There are also many classes/functions that have been created to make our lives much easier, many of which are not popularized in tutorials/articles. Whether you're a developer of 6 months or 6 years there are many things that got missed. I will be discussing usefulness of filter_var and the plethora of benefits when using SPL.</p>
+<p>PHP is filled with many amazing functions/classes that we use daily (PDO, array_*, etc.). There are also many
+ classes/functions that have been created to make our lives much easier, many of which are not popularized in
+ tutorials/articles. Whether you're a developer of 6 months or 6 years there are many things that got missed.
+ I will be discussing usefulness of filter_var and the plethora of benefits when using SPL.</p>

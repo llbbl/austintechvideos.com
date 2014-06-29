@@ -37,8 +37,7 @@ comments:
     to normalize the gain. I didn't do as good as a job with the audio on this one
     as Django profiling. \n\nAlso sorry for the banging sounds it is me trying to
     work the mic and the camera at the same time. "
+videoid: ejgVA6uG6-g
 ---
-<p>http://www.youtube.com/watch?v=ejgVA6uG6-g</p>
-<p><a id="more"></a><a id="more-61"></a></p>
 <p>Dustin Mihalik is going to school you on all the goodness of Flask.</p>
 <p>05.26.2011</p>

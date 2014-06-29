@@ -24,9 +24,7 @@ tags:
 - wordpress
 - wp
 comments: []
+videoid: Agm-d_XE14E
 ---
-<p>http://www.youtube.com/watch?v=Agm-d_XE14E</p>
-<p>&nbsp;</p>
-<p><a id="more"></a><a id="more-159"></a></p>
 <p>Pat Ramsey</p>
 <p>10.04.2011</p>

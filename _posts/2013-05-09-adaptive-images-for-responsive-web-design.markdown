@@ -25,11 +25,14 @@ tags:
 - mobile
 - responsive
 comments: []
+videoid: K63UL8n-03Q
 ---
-<p>http://www.youtube.com/watch?v=K63UL8n-03Q</p>
-<p><a id="more"></a><a id="more-615"></a></p>
-<p>Presented by Christopher Schmitt (<a href="http://twitter.com/teleject">@teleject</a>, founder of Heatvision) at Refresh Austin.</p>
-<p>The open web doesn't stop at our desktop. Smart phones and tablets not only contain more computing power and better browsers than the computers that started the Internet economy, they have better displays. In this session presented by Christopher Schmitt, we work through tips and tricks to develop future friendly images in our sites and apps:</p>
+<p>Presented by Christopher Schmitt (<a href="http://twitter.com/teleject">@teleject</a>, founder of Heatvision)
+at Refresh Austin.</p>
+<p>The open web doesn't stop at our desktop. Smart phones and tablets not only contain more computing power
+and better browsers than the computers that started the Internet economy, they have better displays. In this session
+ presented by Christopher Schmitt, we work through tips and tricks to develop future friendly
+ images in our sites and apps:</p>
 <ul>
 <li>Icon fonts with breeze and accessibility</li>
 <li>Setting up Mobile icons and bookmarks</li>

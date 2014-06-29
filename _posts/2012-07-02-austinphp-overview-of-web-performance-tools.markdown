@@ -21,8 +21,8 @@ categories:
 - AustinPHP
 tags: []
 comments: []
+videoid: 54lfxzDciMU
 ---
-<p>http://www.youtube.com/watch?v=54lfxzDciMU</p>
-<p><a id="more"></a><a id="more-511"></a></p>
-<p>Dan DeFelippi from the Austin Web Performance Meetup will be starting things off with an overview of optimizations and tools</p>
+<p>Dan DeFelippi from the Austin Web Performance Meetup will be starting things off with an overview of
+optimizations and tools</p>
 <p>06.14.2012</p>

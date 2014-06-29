@@ -33,8 +33,7 @@ comments:
   date_gmt: !binary |-
     MjAxMS0wNi0yMiAxNzo1OTowMCAtMDUwMA==
   content: The slide deck for this talk is at https://docs.google.com/present/edit?id=0ARFXwRASUnA_ZGNmZHBzY3dfNzZjanFydDNzbQ&amp;hl=en_US
+videoid: LvOj8V7EWgY
 ---
-<p>http://www.youtube.com/watch?v=LvOj8V7EWgY</p>
-<p><a id="more"></a><a id="more-59"></a></p>
 <p>Dave Mclain is going to point out why your website is slow and tell you how to figure out why with Django profiling.</p>
 <p>05.26.2011</p>

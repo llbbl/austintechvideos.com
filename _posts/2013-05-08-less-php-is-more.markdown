@@ -24,7 +24,7 @@ tags:
 - php
 - css
 comments: []
+videoid: Y53rtOSIIlo
 ---
-<p>http://www.youtube.com/watch?v=Y53rtOSIIlo<a id="more"></a><a id="more-601"></a></p>
 <p>Josh Butts talks about Less, a better way to build CSS.</p>
 <p>3.21.2013 (<a href="http://www.meetup.com/austinphp/events/103336012/">meetup</a>)</p>

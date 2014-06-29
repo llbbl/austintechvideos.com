@@ -22,8 +22,7 @@ categories:
 tags:
 - js
 comments: []
+videoid: wXZz6SAiwzY
 ---
-<p>http://www.youtube.com/watch?v=wXZz6SAiwzY</p>
-<p><a id="more"></a><a id="more-647"></a></p>
 <p>Continuing building a Sails.JS app</p>
 <p>5.7.2013 (<a href="http://www.meetup.com/Sails-JS-Austin/members/63105222/?a=viewBioRsvpList_showBio">meetup</a>)</p>

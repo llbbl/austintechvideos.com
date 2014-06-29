@@ -66,8 +66,8 @@ comments:
     so far and as a result I don't have a ton of time to do stuff like that. I'll
     tell you what, if you want to help, if you post the links in the comments here
     I'll update the body of the article.
+videoid: 6fvl-xDnrdc
 ---
-<p>http://www.youtube.com/watch?v=6fvl-xDnrdc</p>
-<p><a id="more"></a><a id="more-506"></a></p>
-<p>Jason Cohen from WP Engine will be here to talk about how his company overcame some of the challenges associated with scaling wordpress.</p>
+<p>Jason Cohen from WP Engine will be here to talk about how his company overcame some of the challenges
+associated with scaling wordpress.</p>
 <p>06.14.2012</p>

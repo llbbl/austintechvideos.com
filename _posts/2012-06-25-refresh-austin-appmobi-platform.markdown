@@ -24,10 +24,11 @@ tags:
 - austin-refresh
 - mobile
 comments: []
+videoid: G2yhnX2RyiU
 ---
-<p>http://www.youtube.com/watch?v=G2yhnX2RyiU</p>
-<p><a id="more"></a><a id="more-419"></a></p>
 <p>appMobi: HTML5 mobile app andgame development platform</p>
 <p>Presented by Steve Tsuruda (@stsuruda1), from appMobi</p>
-<p>Steve will discuss cross-device HTML5 developer tools for creating both native mobile applications and HTML5 web apps. He’ll talk about advances in HTML5, JavaScript and CSS3 that help developers accelerate their time-to-market and reduce costs associated with deploying cross-platform.</p>
+<p>Steve will discuss cross-device HTML5 developer tools for creating both native mobile applications and HTML5
+web apps. He’ll talk about advances in HTML5, JavaScript and CSS3 that help developers accelerate their time-to-market
+and reduce costs associated with deploying cross-platform.</p>
 <p>02.14.2012 </p>

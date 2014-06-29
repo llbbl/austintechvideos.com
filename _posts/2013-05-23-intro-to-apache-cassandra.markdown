@@ -24,8 +24,8 @@ tags:
 - cassandra
 - database
 comments: []
+videoid: GUW5ewtaVBQ
 ---
-<p>http://www.youtube.com/watch?v=GUW5ewtaVBQ</p>
-<p><a id="more"></a><a id="more-659"></a></p>
+
 <p>Apache Cassandra chair <a href="https://twitter.com/spyced">Jonathan Ellis</a> gives an introduction to the Cassandra project.</p>
 <p>5.16.13 (<a href="http://www.meetup.com/Cassandra-Austin/events/112331672/">meetup</a>)</p>
