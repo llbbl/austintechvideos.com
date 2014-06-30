@@ -45,6 +45,90 @@
 #sidebar #categorieswrapper ul li.active {
   border-left: 8px solid white;
 }
+.postcard {
+  width: 410px;
+  padding: 20px;
+  border-left: 10px solid #387897;
+  margin: 0 20px 30px 0;
+  background: white;
+  color: #111;
+}
+.postcard .posttitle {
+  float: left;
+  width: 60%;
+  height: 44px;
+  margin-bottom: 3px;
+  font: 16px/1.33em 'Crete Round', serif;
+  color: #387897;
+  text-decoration: none;
+  cursor: pointer;
+}
+.postcard .posttimestamp {
+  float: right;
+  clear: right;
+  font-size: 10px;
+  line-height: 21.28px;
+}
+.postcard .postcategory {
+  float: right;
+  clear: right;
+  font-size: 10px;
+  line-height: 21.28px;
+  background: #ebf3f5;
+  color: #333;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.postcard .postcontent {
+  clear: both;
+  padding: 0;
+  margin-bottom: 10px;
+  width: 360px;
+  height: 202.5px;
+  min-height: 202.5px;
+  max-height: 202.5px;
+  cursor: pointer;
+}
+.postcard .postcontent .youtube-thumbnail {
+  height: 100%;
+}
+.postcard .postcontent .youtube-thumbnail img {
+  width: 100%;
+  position: relative;
+  top: -35px;
+}
+.postcard .postcontent .youtube-thumbnail iframe {
+  display: none;
+}
+.postcard .postdescription {
+  position: relative;
+}
+.postcard .postdescription .morelink {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: white;
+  color: #387897;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.postcard.full {
+  width: 100%;
+}
+.postcard.full .postcontent {
+  width: 100%;
+}
+.postcard.full .postcontent img {
+  display: none;
+}
+.postcard.full .postcontent iframe {
+  display: block;
+}
+.postcard #disqus_container {
+  border-top: 1px solid #b9b9b9;
+  margin: 20px 0;
+  padding: 20px 0;
+}
 #header {
   position: fixed;
   top: 0;
@@ -77,5 +161,7 @@
 }
 #content-wrap {
   padding-left: 340px;
+  background: #222;
+  height: 100%;
   transition: all 0.4s ease 0s;
 }
