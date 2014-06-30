@@ -1,11 +1,17 @@
-<nav id='sidebar'>
-    <div id='searchwrapper'>
-        <input type='text' id='inputsearch' name='inputsearch' maxlength='40' placeholder='Search' />
+<div id="sidebar-wrapper">
+    <div class="sidebar-nav">
+
+        <nav id="sidebar">
+            <div id='searchwrapper'>
+                <input type='text' id='inputsearch' name='inputsearch' maxlength='40' placeholder='Search' />
+            </div>
+            <div id='categorieswrapper'>
+                <div class='hidden-md hidden-lg dropdown-toggle'>
+                    <span class='dropdown-toggle-icon'></span>Groups
+                </div>
+                <ul class='dropdown-menu hidden-sm' id='categories'></ul>
+            </div>
+        </nav>
+
     </div>
-    <div id='categorieswrapper'>
-        <div class='hidden-md hidden-lg dropdown-toggle'>
-            <span class='dropdown-toggle-icon'></span>Groups
-        </div>
-        <ul class='dropdown-menu hidden-sm' id='categories'></ul>
-    </div>
-</nav>
+</div>

@@ -1,8 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Crete+Round|ABeeZee:400,400italic);
 #sidebar {
-  position: fixed;
-  top: 241.5503875968992px;
-  left: 0;
   width: 320px;
   height: 100%;
   max-height: 100%;
@@ -47,4 +44,38 @@
 #sidebar #categorieswrapper ul li:hover,
 #sidebar #categorieswrapper ul li.active {
   border-left: 8px solid white;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  background: white;
+  color: #333;
+  padding: 20px 30px;
+}
+#header img {
+  width: 100%;
+}
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 320px;
+  background: #387897;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  top: 250px;
+}
+.sidebar-nav {
+  position: absolute;
+  width: 320px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#content-wrap {
+  padding-left: 340px;
+  transition: all 0.4s ease 0s;
 }
