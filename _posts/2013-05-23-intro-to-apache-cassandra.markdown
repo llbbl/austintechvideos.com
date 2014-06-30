@@ -29,3 +29,4 @@ videoid: GUW5ewtaVBQ
 
 <p>Apache Cassandra chair <a href="https://twitter.com/spyced">Jonathan Ellis</a> gives an introduction to the Cassandra project.</p>
 <p>5.16.13 (<a href="http://www.meetup.com/Cassandra-Austin/events/112331672/">meetup</a>)</p>
+
