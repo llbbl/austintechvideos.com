@@ -11,6 +11,28 @@ layout: default
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+
+        <div class='postcard' videoid='{{ post.videoid }}'>
+          <br>New Here<br>
+          <div class='posttitle' style="color:red;">{{post.title}}</div>
+          <div class='postcategory' style="color:red;">{{post.categories}}</div>
+
+          <div class='posttimestamp' style="color:red;">{{ post.date | date: "%b %-d, %Y" }}</div>
+          <div class='postcontent'>
+            <div class='youtube-thumbnail'>
+              <img class='thumbnail-img' src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' data-src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' />
+              <iframe width='100%' height='100%' src='//www.youtube.com/embed/{{post.videoid}}?rel=0' data-src='//www.youtube.com/embed/{{post.videoid}}?rel=0' frameborder='0' allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class='postdescription'> {{post.description}} </div>
+          <br>end New Here<br>
+        </div>
+
+
+
+
+
       </li>
     {% endfor %}
   </ul>
@@ -18,3 +40,5 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
+
