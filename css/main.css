@@ -57,6 +57,7 @@
   float: left;
   width: 60%;
   height: 44px;
+  overflow-y: hidden;
   margin-bottom: 3px;
   font: 16px/1.33em 'Crete Round', serif;
   color: #387897;
@@ -91,6 +92,7 @@
 }
 .postcard .postcontent .youtube-thumbnail {
   height: 100%;
+  overflow-y: hidden;
 }
 .postcard .postcontent .youtube-thumbnail img {
   width: 100%;
@@ -101,6 +103,8 @@
   display: none;
 }
 .postcard .postdescription {
+  height: 90px;
+  overflow-y: hidden;
   position: relative;
 }
 .postcard .postdescription .morelink {
@@ -114,6 +118,9 @@
 }
 .postcard.full {
   width: 100%;
+  max-height: inherit;
+  min-height: inherit;
+  height: auto;
 }
 .postcard.full .postcontent {
   width: 100%;
@@ -123,6 +130,7 @@
 }
 .postcard.full .postcontent iframe {
   display: block;
+  height: 100%;
 }
 .postcard #disqus_container {
   border-top: 1px solid #b9b9b9;
@@ -162,6 +170,10 @@
 #content-wrap {
   padding-left: 340px;
   background: #222;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+html,
+body {
   height: 100%;
-  transition: all 0.4s ease 0s;
 }
