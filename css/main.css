@@ -84,14 +84,11 @@
   clear: both;
   padding: 0;
   margin-bottom: 10px;
-  width: 360px;
-  height: 202.5px;
-  min-height: 202.5px;
-  max-height: 202.5px;
+  min-width: 300px;
   cursor: pointer;
 }
 .postcard .postcontent .youtube-thumbnail {
-  height: 100%;
+  height: 40%;
   overflow-y: hidden;
 }
 .postcard .postcontent .youtube-thumbnail img {
@@ -117,13 +114,8 @@
   padding-left: 10px;
 }
 .postcard.full {
-  width: 100%;
-  max-height: inherit;
-  min-height: inherit;
-  height: auto;
-}
-.postcard.full .postcontent {
-  width: 100%;
+  width: 90%;
+  height: 100%;
 }
 .postcard.full .postcontent img {
   display: none;
@@ -158,7 +150,7 @@
   height: 100%;
   overflow-y: auto;
   z-index: 1000;
-  top: 250px;
+  top: 227px;
 }
 .sidebar-nav {
   position: absolute;
@@ -168,12 +160,43 @@
   padding: 0;
 }
 #content-wrap {
-  padding-left: 340px;
+  padding-left: 255px;
   background: #222;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 0px auto;
+  max-width: 1000px;
+  min-width: 300px;
+  width: 80%;
+  height: 100%;
+}
+.post {
+  height: 70%;
 }
 html,
 body {
   height: 100%;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  background-color: #222;
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  #sidebar-wrapper {
+    display: none;
+  }
+  #atv-logo {
+    display: none;
+  }
+  #sm-atv-logo {
+    display: inline-block;
+  }
+}
+#sm-atv-logo {
+  display: none;
 }

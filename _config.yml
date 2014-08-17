@@ -2,7 +2,7 @@
 title: AustinTechVideos.com
 email: austintechvideos@llbbl.com
 description: "Nerdin it up in Austin"
-baseurl: ""
+baseurl: "http://static.atv.local/"
 url: "http://www.austintechvideos.com/"
 
 # Build settings
