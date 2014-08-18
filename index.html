@@ -4,39 +4,30 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+    <div class="posts">
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <div class='postcard' videoid='{{ post.videoid }}'>
+                    <div class='posttitle' style="color:red;"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></div>
+                    <div class='postcategory' style="color:red;">{{post.categories}}</div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-
-        <div class='postcard' videoid='{{ post.videoid }}'>
-          <br>New Here<br>
-          <div class='posttitle' style="color:red;">{{post.title}}</div>
-          <div class='postcategory' style="color:red;">{{post.categories}}</div>
-
-          <div class='posttimestamp' style="color:red;">{{ post.date | date: "%b %-d, %Y" }}</div>
-          <div class='postcontent'>
-            <div class='youtube-thumbnail'>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <img class='thumbnail-img' src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' data-src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' />
-              </a>
-            </div>
-          </div>
-          <div class='postdescription'> {{post.description}} </div>
-          <br>end New Here<br>
-        </div>
+                    <div class='posttimestamp' style="color:red;">{{ post.date | date: "%b %-d, %Y" }}</div>
+                    <div class='postcontent'>
+                        <div class='youtube-thumbnail'>
+                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                                <img class='thumbnail-img' src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' data-src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' />
+                            </a>
+                        </div>
+                    </div>
+                    <div class='postdescription'> {{post.description}} </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
 
 
-
-
-
-      </li>
-    {% endfor %}
-  </ul>
+    </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
