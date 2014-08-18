@@ -15,7 +15,7 @@ layout: default
                     <div class='posttimestamp' style="color:red;">{{ post.date | date: "%b %-d, %Y" }}</div>
                     <div class='postcontent'>
                         <div class='youtube-thumbnail'>
-                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                            <a class="post-link" href="{{ post.url }}">
                                 <img class='thumbnail-img' src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' data-src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' />
                             </a>
                         </div>
