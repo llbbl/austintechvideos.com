@@ -2,8 +2,8 @@
 title: AustinTechVideos.com
 email: austintechvideos@llbbl.com
 description: "Nerdin it up in Austin"
-baseurl: "http://llbbl.github.io/static.austintechvideos.com/"
-url: "http://www.austintechvideos.com/"
+baseurl: "http://static.austintechvideos.com/"
+url: "http://static.austintechvideos.com/"
 
 # Build settings
 markdown: kramdown
