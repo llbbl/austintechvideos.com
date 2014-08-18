@@ -4,4 +4,6 @@
 $(document).ready(function(){
 
     $(".post-content").fitVids();
+
+//    $("#sm-logo-wrap").hide();
 });

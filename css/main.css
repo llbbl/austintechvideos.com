@@ -160,12 +160,10 @@
   padding: 0;
 }
 #content-wrap {
-  padding-left: 255px;
+  padding-left: 338px;
   background: #222;
-  margin: 0px auto;
-  max-width: 1000px;
+  max-width: 1272px;
   min-width: 300px;
-  width: 80%;
   height: 100%;
 }
 .post {
@@ -186,17 +184,27 @@ body {
 * {
   box-sizing: border-box;
 }
-@media (max-width: 600px) {
+#ytbox {
+  min-width: 350px;
+}
+@media (max-width: 800px) {
   #sidebar-wrapper {
     display: none;
   }
-  #atv-logo {
+  #header {
     display: none;
   }
-  #sm-atv-logo {
-    display: inline-block;
+  #sm-atv-logo,
+  #sm-logo-wrap {
+    display: inline;
+  }
+  #content-wrap {
+    padding-left: 20px;
+  }
+  #sm-logo-wrap {
+    margin-bottom: 20px;
   }
 }
-#sm-atv-logo {
+.hide {
   display: none;
 }

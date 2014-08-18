@@ -4,6 +4,12 @@ layout: default
 <div class="post">
 
   <article class="post-content">
+      <div class="hide" id="sm-logo-wrap">
+          <a href='/'>
+              <img id="sm-atv-logo" src="{{ 'img/atv_blue-sm.png' | prepend: site.baseurl }}" alt='Austin Tech Videos logo' />
+          </a>
+      </div>
+
 
       <div id="ytbox" class='postcard full' videoid='{{page.videoid}}'>
           <div class='posttitle'> {{page.title}} </div>
