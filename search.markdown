@@ -3,7 +3,8 @@ layout: default
 ---
 
 
-<div id="search">
+<h1>Search</h1>
+<div id="search-form">
     <form action="/search" method="get">
         <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
     </form>

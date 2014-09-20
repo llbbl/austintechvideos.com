@@ -219,3 +219,6 @@ li {
 .hide {
   display: none;
 }
+#search-form {
+  padding-top: 40px;
+}

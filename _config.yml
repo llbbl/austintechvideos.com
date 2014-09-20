@@ -2,8 +2,9 @@
 title: AustinTechVideos.com
 email: austintechvideos@llbbl.com
 description: "Nerdin it up in Austin"
-baseurl: "http://www.austintechvideos.com/"
+baseurl: ""
 url: ""
+
 
 # Build settings
 markdown: kramdown
