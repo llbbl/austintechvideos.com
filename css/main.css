@@ -158,12 +158,30 @@
   margin: 0;
   padding: 0;
 }
+.sidebar-nav a {
+  color: #222222;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.sidebar-nav a:hover {
+  color: #5e5e5e;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#searchblock {
+  text-align: center;
+  width: 100%;
+}
 #content-wrap {
   padding-left: 338px;
   background: #222;
   max-width: 1272px;
   min-width: 300px;
   height: 100%;
+}
+#content-wrap h1 {
+  margin-top: 0;
+  padding-top: 20px;
 }
 .post {
   height: 70%;
@@ -220,5 +238,5 @@ li {
   display: none;
 }
 #search-form {
-  padding-top: 40px;
+  margin-top: 2px;
 }

@@ -1,8 +1,14 @@
 <div id="sidebar-wrapper">
     <div class="sidebar-nav">
 
+        <a href="/search"><div id="searchblock">Search</div></a>
         <nav id="sidebar">
             <div id='categorieswrapper'>
+                {% for category in site.categories %}
+                <li><a name="{{ category | first }}" href="/categories/{{ category | first | replace: ' ', '-' }}">{{ category | first }}</a>
+                </li>
+                {% endfor %}
+
                 <div class='hidden-md hidden-lg dropdown-toggle'>
                     <span class='dropdown-toggle-icon'></span>
                 </div>
