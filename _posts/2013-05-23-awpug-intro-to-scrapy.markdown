@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro to Apache Cassandra
+title: Introduction to Scrapy
 categories:
 - AWPUG
 tags:
