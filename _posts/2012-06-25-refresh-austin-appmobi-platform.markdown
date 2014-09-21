@@ -18,7 +18,7 @@ date: !binary |-
 date_gmt: !binary |-
   MjAxMi0wNi0yNSAwMzozOToyMSAtMDUwMA==
 categories:
-- AustinTechVideos
+- refresh austin
 tags:
 - refresh
 - austin-refresh
