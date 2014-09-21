@@ -22,7 +22,7 @@ Things we could use help with:
 * We are using recurser's plugin to generate the categories. It is one part of a set of plugins that they have created. [Jekyll (Category) Plugins](https://github.com/recurser/jekyll-plugins)
 * It requires the octopress filters plugin. [octopress_filters.rb](https://github.com/recurser/jekyll-plugins/blob/master/_plugins/octopress_filters.rb)
 
-### Jekyll Lunr JS (Search) Plugin
+### Lunr JS (Search) Plugin
 * We are using LunrJS to power the search feature. There is a Jekyll plugin for LunrJS that is pretty easy to use! [jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
 * It has a few requirements. You must install two gems "json" and "nokogiri". This must be done before search will work. Installed via this command: ```gem install nokogiri json```
 
