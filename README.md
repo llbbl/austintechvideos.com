@@ -7,9 +7,9 @@ This is the current version of the ATV website. We used to be on wordpress, but 
 
 Things we could use help with:
 * CSS improvements
-..* The search and navigation sytling
-..* Getting rid of the red text
-..* Making the smaller logo work responsively
+  * The search and navigation sytling
+  * Getting rid of the red text
+  * Making the smaller logo work responsively
 * Help screening the videos that need to be posted and generating the markdown files
 * Most importantly we are looking for people interested in recording the local meetups!
 
@@ -23,7 +23,7 @@ Things we could use help with:
 * It requires the octopress filters plugin. [octopress_filters.rb](https://github.com/recurser/jekyll-plugins/blob/master/_plugins/octopress_filters.rb)
 
 ### Jekyll Lunr JS (Search) Plugin
-* We are using LunrJS to power the search feature. There is a Jekyll plugin that is pretty easy to implement! [jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
+* We are using LunrJS to power the search feature. There is a Jekyll plugin for LunrJS that is pretty easy to use! [jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
 * It has a few requirements. You must install two gems "json" and "nokogiri". This must be done before search will work. Installed via this command: ```gem install nokogiri json```
 
 
