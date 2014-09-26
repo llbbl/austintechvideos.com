@@ -13,6 +13,7 @@ Things we could use help with:
 * Need to add Pagination on the main page and long category pages
 * Help screening the videos that need to be posted and generating the markdown files
 * Most importantly we are looking for people interested in recording the local meetups!
+* Get Disqus working so we have comments again
 
 
 ## About The Site
