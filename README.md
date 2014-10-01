@@ -14,6 +14,7 @@ Things we could use help with:
 * Help screening the videos that need to be posted and generating the markdown files
 * Most importantly we are looking for people interested in recording the local meetups!
 * Get Disqus working so we have comments again
+* Support for Vimeo
 
 
 ## About The Site
