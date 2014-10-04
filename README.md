@@ -12,14 +12,21 @@ Things we could use help with:
   * Making the smaller logo work responsively
 * Need to add Pagination on the main page and long category pages
 * Help screening the videos that need to be posted and generating the markdown files
-* Most importantly we are looking for people interested in recording the local meetups!
 * Get Disqus working so we have comments again
 * Support for Vimeo
+* *Most importantly we are looking for people interested in recording the local meetups!*
 
 
 ## About The Site
 ### Jekyll
 * The install instructions for Jekyll can be found here: [installing jekyll](http://jekyllrb.com/docs/installation/)
+
+However ... on a clean Ubuntu here is how to install it:
+
+``` 
+apt-get install ruby ruby1.9.1-full make nodejs
+gem install jekyll
+```  
 
 ### Category Plugin
 * We are using recurser's plugin to generate the categories. It is one part of a set of plugins that they have created. [Jekyll (Category) Plugins](https://github.com/recurser/jekyll-plugins)
