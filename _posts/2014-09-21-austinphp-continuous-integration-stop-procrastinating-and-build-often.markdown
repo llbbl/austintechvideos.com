@@ -7,7 +7,6 @@ tags:
 - jenkins 
 - extreme programming
 - automation
-- 
 videoid: eu3J2U2UgsM
 ---
 
