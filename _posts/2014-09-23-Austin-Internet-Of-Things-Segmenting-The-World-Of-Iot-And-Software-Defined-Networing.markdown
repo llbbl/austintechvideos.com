@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Segmenting The World of IoT and Software Defined Networking
 categories:
@@ -8,7 +8,6 @@ tags:
 - Software Defined Networking
 - IoT
 - Internet of Things
-
 videoid: DccNAXFDF2c
 ---
  
