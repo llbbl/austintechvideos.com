@@ -1,7 +1,9 @@
 # Austintechvideos.com Website
 ===========================
 
-This is the current version of the ATV website. We used to be on wordpress, but transitioned over to Jekyll to make it easier for everyone to contribute. If you have videos you would like to be posted to the site all you need to do is submit a pull request!
+This is the current version of the ATV website. We used to be on wordpress, but transitioned over to Jekyll to make it 
+easier for everyone to contribute. If you have videos you would like to be posted to the site all you need to do is 
+submit a pull request!
 
 ## Interested in Contributing?
 
@@ -29,11 +31,17 @@ gem install jekyll
 ```  
 
 ### Category Plugin
-* We are using recurser's plugin to generate the categories. It is one part of a set of plugins that they have created. [Jekyll (Category) Plugins](https://github.com/recurser/jekyll-plugins)
-* It requires the octopress filters plugin. [octopress_filters.rb](https://github.com/recurser/jekyll-plugins/blob/master/_plugins/octopress_filters.rb)
+* We are using recurser's plugin to generate the categories. It is one part of a set of plugins that they have created.
+ [Jekyll (Category) Plugins](https://github.com/recurser/jekyll-plugins)
+* It requires the octopress filters plugin.
+ [octopress_filters.rb](https://github.com/recurser/jekyll-plugins/blob/master/_plugins/octopress_filters.rb)
 
 ### Lunr JS (Search) Plugin
-* We are using LunrJS to power the search feature. There is a Jekyll plugin for LunrJS that is pretty easy to use! [jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
-* It has a few requirements. You must install two gems "json" and "nokogiri". This must be done before search will work. Installed via this command: ```gem install nokogiri json```
+* We are using LunrJS to power the search feature. There is a Jekyll plugin for LunrJS that is pretty easy to use! 
+[jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
+* It has a few requirements. You must install two gems "json" and "nokogiri". This must be done before search will 
+work. Installed via this command: ```gem install nokogiri json```
 
 
+### License
+See the [LICENSE](LICENSE.md) file (MIT)
