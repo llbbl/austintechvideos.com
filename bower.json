@@ -1,0 +1,16 @@
+{
+  "name": "austintechvideos.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/llbbl/austintechvideos.com",
+  "authors": [
+    "Logan Lindquist <logan@legacybeta.com>"
+  ],
+  "description": "tech videos from austin",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
