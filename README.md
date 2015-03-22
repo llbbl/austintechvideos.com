@@ -42,6 +42,53 @@ gem install jekyll
 * It has a few requirements. You must install two gems "json" and "nokogiri". This must be done before search will 
 work. Installed via this command: ```gem install nokogiri json```
 
+### Using Bower and Grunt with AustinTechVideos
+* Need an example of recursion? See JavaScript Package Managers. For better or worse, we are using a
+combination of 3 different ones to allow us to install jquery, fitvids and bootstrap. I think
+the idea is to make upgrading JS packages easier and let us have access to all the shiny toys.
+
+#### Step 1) Install Grunt CLI
+
+This will put the grunt command in your system path, allowing it to be run from any directory. 
+Grunt needs multiple parts to run and we have to install it globally before doing anything else.
+You may need to run this with sudo. 
+
+```
+npm install -g grunt-cli
+```
+
+
+#### Step 2) Change to Repo Directory and Run NPM
+
+package.json - Defines what npm packages to install. This will setup bower and grunt and a few other things
+
+```
+npm install
+```
+
+#### Step 3) Download Packages with Bower
+
+bower.json - Defines what bower packages to install. 
+
+```
+bower install 
+```
+
+#### Step 4) Copy files with Grunt
+
+Gruntfile.js - The main grunt configuration file. Tells grunt what to do. In our case just copy 
+the stuff we just downloaded with bower into the right spots. 
+
+```
+gulp
+```
+
+--- Here it is all together ---
+
+```
+npm install -g grunt-cli && npm install && bower install && gulp
+```
+
 
 ### License
 See the [LICENSE](LICENSE.md) file (MIT)
