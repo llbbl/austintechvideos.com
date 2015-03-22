@@ -7,7 +7,11 @@
   ],
   "description": "tech videos from austin",
   "license": "MIT",
-  "private": true,
+  "dependencies": {
+    "bootstrap": "v3.0.3",
+    "jquery": "v1.11.1",
+    "fitvids": "v1.1"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
