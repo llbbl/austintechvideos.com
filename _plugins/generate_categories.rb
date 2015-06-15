@@ -23,7 +23,9 @@ module Jekyll
       if site.layouts.key? 'category_index'
         dir = site.config['category_dir'] || 'categories'
         site.categories.each_key do |category|
-          site.pages << CategoryPage.new(site, site.source, File.join(dir, category), category)
+            category_dashes = category.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
+
+            site.pages << CategoryPage.new(site, site.source, File.join(dir, category_dashes), category)
         end
       end
     end
