@@ -18,14 +18,7 @@ module.exports = function(grunt) {
         },
 
         less: {
-            development: {
-                options: {
-                    paths: ["css"]
-                },
-                files: {
-                    "css/main.css": "css/main.less"
-                }
-            },
+            
             production: {
                 options: {
                     paths: ["css"]
