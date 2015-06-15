@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Segmenting The World of IoT and Software Defined Networking
 categories:
 - Internet Of Things
