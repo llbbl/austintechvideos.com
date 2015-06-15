@@ -44,8 +44,8 @@ work. Installed via this command: ```gem install nokogiri json```
 
 ### Using Bower and Grunt with AustinTechVideos
 * Need an example of recursion? See JavaScript Package Managers. For better or worse, we are using a
-combination of 3 different ones to allow us to install jquery, fitvids and bootstrap. I think
-the idea is to make upgrading JS packages easier and let us have access to all the shiny toys.
+combination of 3 different package managers (npm, bower, grunt) to allow us to install jquery, fitvids and bootstrap. 
+The idea is to make upgrading JS packages easier and to use configuration file(s) to manage the front end dependencies. 
 
 #### Step 1) Install Grunt CLI
 
@@ -56,7 +56,6 @@ You may need to run this with sudo.
 ```
 npm install -g grunt-cli
 ```
-
 
 #### Step 2) Change to Repo Directory and Run NPM
 
@@ -80,13 +79,13 @@ Gruntfile.js - The main grunt configuration file. Tells grunt what to do. In our
 the stuff we just downloaded with bower into the right spots. 
 
 ```
-gulp
+grunt
 ```
 
 --- Here it is all together ---
 
 ```
-npm install -g grunt-cli && npm install && bower install && gulp
+npm install -g grunt-cli && npm install && bower install && grunt
 ```
 
 
