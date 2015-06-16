@@ -2,7 +2,7 @@
 layout: post
 title: Silex
 categories:
-- Austin PHP
+- austinphp
 tags:
 - Silex
 - Microframework
