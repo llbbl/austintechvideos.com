@@ -1,5 +1,5 @@
 ---
-title: "Presenting StrongLoop: NodeJS and the Advent of iPaaS"
+title: "Debugging, Profiling, Heap Analysis, Scaling and other fix-it techniques in Node.js"
 categories:
 - Austin MEAN Stack
 tags:
@@ -14,7 +14,10 @@ Shubhra Kar, Director - Products, StrongLoop Inc., is an accomplished J2EE and N
 
 Talk 2: Debugging, Profiling, Heap Analysis, Scaling and other fix-it techniques in Node.js (1 hr)
 
-When a Node app isn’t making it through the periods of load, how do you get to the root of the problem. Using only open source tools, I’ll show you how to look inside Node, Modules and V8 to discover where the memory or processor is hung up or the data has gotten corrupt or the errors are being thrown. Also I will share some sauce of build, deploy and scaling on demand in production. 
+When a Node app isn’t making it through the periods of load, how do you get to the root of the problem. 
+Using only open source tools, I’ll show you how to look inside Node, Modules and V8 to discover where the
+memory or processor is hung up or the data has gotten corrupt or the errors are being thrown. Also I will 
+share some sauce of build, deploy and scaling on demand in production. 
 
 Topics are in the app development lifecycle chronology:
 
