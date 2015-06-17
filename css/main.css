@@ -117,12 +117,19 @@
   width: 90%;
   height: 100%;
 }
+.postcard.full .posttitle {
+  height: auto;
+}
 .postcard.full .postcontent img {
   display: none;
 }
 .postcard.full .postcontent iframe {
   display: block;
   height: 100%;
+}
+.postcard.full .postdescription {
+  height: auto;
+  clear: both;
 }
 .postcard #disqus_container {
   border-top: 1px solid #b9b9b9;
