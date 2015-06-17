@@ -47,6 +47,6 @@ updatedb
 ufw allow 4000
 
 # Run Jekyll
-jekyll serve --host `0.0.0.0` --port 80 --detach
+jekyll serve --host 0.0.0.0 --port 80 --detach
 
 echo "One-time setup complete! Server now live on port 4000!"
