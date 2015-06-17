@@ -5,7 +5,10 @@
         <nav id="sidebar">
             <div id='categorieswrapper'>
                 {% for category in site.categories %}
-                <li><a name="{{ category | first }}" href="/categories/{{ category | first | replace: ' ', '-' }}">{{ category | first }}</a>
+                <li>
+                    <a name="{{ category | first }}" href="/categories/{{ category | first | replace: ' ', '-' | replace: '.', '-' }}">
+                    {{ category | first }}
+                    </a>
                 </li>
                 {% endfor %}
 
