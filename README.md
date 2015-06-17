@@ -26,8 +26,9 @@ Things we could use help with:
 However ... on a clean Ubuntu here is how to install it:
 
 ``` 
-apt-get install ruby ruby1.9.1-full make nodejs
+apt-get install ruby ruby1.9.1-full make nodejs npm
 gem install jekyll
+gem install nokogiri json
 ```  
 
 ### Category Plugin
@@ -59,13 +60,21 @@ npm install -g grunt-cli
 
 #### Step 2) Change to Repo Directory and Run NPM
 
-package.json - Defines what npm packages to install. This will setup bower and grunt and a few other things
+package.json - Defines what npm packages to install. This will setup grunt plugins and a few other things
 
 ```
 npm install
 ```
 
-#### Step 3) Download Packages with Bower
+#### Step 3) Install Bower Globally
+
+Everything just works better if you have bower installed globally instead of via the package.json file ... sigh
+
+```
+npm install -g bower
+```
+
+#### Step 4) Download Packages with Bower
 
 bower.json - Defines what bower packages to install. 
 
@@ -73,7 +82,7 @@ bower.json - Defines what bower packages to install.
 bower install 
 ```
 
-#### Step 4) Copy files with Grunt
+#### Step 5) Copy files with Grunt
 
 Gruntfile.js - The main grunt configuration file. Tells grunt what to do. In our case just copy 
 the stuff we just downloaded with bower into the right spots. 
@@ -85,7 +94,19 @@ grunt
 --- Here it is all together ---
 
 ```
-npm install -g grunt-cli && npm install && bower install && grunt
+npm install -g grunt-cli && npm install && npm install -g bower && bower install && grunt
+```
+
+
+### Building The Site
+
+Once you have everything setup all you have to do is run jekyll build in the repo root and it will build the site for
+under the "_site" folder. This is just how jekyll works. This is where the site is "served" from. You will
+need to run jekyll build everytime you add a new post. You can use the built in web server or nginx/apache 
+to serve the content. 
+
+```
+jekyll build
 ```
 
 
