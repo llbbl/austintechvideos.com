@@ -11,7 +11,7 @@ url: ""
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: node_modules, bower_components
+exclude: ['node_modules', 'bower_components']
 
 defaults:
   -
