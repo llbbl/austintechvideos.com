@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HHVM: The Fiddly Bits
+title: "HHVM: The Fiddly Bits"
 categories:
 - austinphp
 tags:

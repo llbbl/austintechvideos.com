@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It Was Like That When I Got Here: Steps Toward Modernizing a Legacy Codebase
+title: "It Was Like That When I Got Here: Steps Toward Modernizing a Legacy Codebase"
 categories:
 - austinphp
 tags:

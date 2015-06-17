@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependency Injection in AngularJS: Services/Factories/Providers by Chris Nienhuis
+title: Dependency Injection in AngularJS - Services/Factories/Providers by Chris Nienhuis
 categories:
 - AngularJS
 tags:

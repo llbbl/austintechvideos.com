@@ -1,5 +1,5 @@
 ---
-title: Presenting StrongLoop: NodeJS and the Advent of iPaaS
+title: "Presenting StrongLoop: NodeJS and the Advent of iPaaS"
 categories:
 - Austin MEAN Stack
 tags:
