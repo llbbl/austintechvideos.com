@@ -5,6 +5,8 @@ description: "Nerdin it up in Austin"
 baseurl: ""
 url: ""
 
+# Pagination
+# paginate: 5
 
 # Build settings
 markdown: kramdown

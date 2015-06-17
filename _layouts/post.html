@@ -14,7 +14,12 @@ layout: default
       <div id="ytbox" class='postcard full' videoid='{{page.videoid}}'>
           <div class='posttitle'> {{page.title}} </div>
           <div class='postcategory' category=" {{page.categories}} "> {{page.categories}} </div>
-          <div class='posttimestamp'> </div>
+          <div class='posttimestamp'> {{page.timestamp}} </div>
+
+          <div class='postdescription'>
+            {{ content }} 
+          </div>
+
           <div class='postcontent'>
               <div class='youtube-thumbnail'>
                   <iframe width='100%' height='100%' src='http://www.youtube.com/embed/{{page.videoid}}?rel=0' data-src='//www.youtube.com/embed/{{page.videoid}}?rel=0' frameborder='0' allowfullscreen></iframe>
@@ -23,7 +28,7 @@ layout: default
 
       </div>
 
-      {{ content }}
+      
   </article>
 
 
