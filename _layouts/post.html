@@ -6,7 +6,7 @@ layout: default
   <article class="post-content">
       <div class="hide" id="sm-logo-wrap">
           <a href='/'>
-              <img id="sm-atv-logo" src="{{ 'img/atv_blue-sm.png' | prepend: site.baseurl }}" alt='Austin Tech Videos logo' />
+              <img id="sm-atv-logo" src="{{ '/img/atv_blue-sm.png' | prepend: site.baseurl }}" alt='Austin Tech Videos logo' />
           </a>
       </div>
 
@@ -16,9 +16,6 @@ layout: default
           <div class='postcategory' category=" {{page.categories}} "> {{page.categories}} </div>
           <div class='posttimestamp'> {{page.timestamp}} </div>
 
-          <div class='postdescription'>
-            {{ content }} 
-          </div>
 
           <div class='postcontent'>
               <div class='youtube-thumbnail'>
@@ -28,7 +25,12 @@ layout: default
 
       </div>
 
-      
+      <div class='postdescription'>
+          {{ content }}
+      </div>
+
+
+
   </article>
 
 
