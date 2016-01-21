@@ -1,4 +1,8 @@
+require 'fileutils'
+require 'net/http'
 require 'json'
+require 'uri'
+require 'v8'
 
 module Jekyll
   module LunrJsSearch
@@ -10,9 +14,31 @@ module Jekyll
           'excludes' => [],
           'strip_index_html' => false,
           'min_length' => 3,
-          'stopwords' => 'stopwords.txt'
+          'stopwords' => 'stopwords.txt',
+          'fields' => {
+            'title' => 10,
+            'tags' => 20,
+            'body' => 1
+          },
+          'js_dir' => 'js'
         }.merge!(config['lunr_search'] || {})
-        
+
+        @js_dir = lunr_config['js_dir']
+        gem_lunr = File.join(File.dirname(__FILE__), "../../build/lunr.min.js")
+        @lunr_path = File.exist?(gem_lunr) ? gem_lunr : File.join(@js_dir, File.basename(gem_lunr))
+        raise "Could not find #{@lunr_path}" if !File.exist?(@lunr_path)
+
+        ctx = V8::Context.new
+        ctx.load(@lunr_path)
+        ctx['indexer'] = proc do |this|
+          this.ref('id')
+          lunr_config['fields'].each_pair do |name, boost|
+            this.field(name, { 'boost' => boost })
+          end
+        end
+        @index = ctx.eval('lunr(indexer)')
+        @lunr_version = ctx.eval('lunr.version')
+        @docs = {}
         @excludes = lunr_config['excludes']
         
         # if web host supports index.html as default doc, then optionally exclude it from the url 
@@ -26,67 +52,106 @@ module Jekyll
       # Index all pages except pages matching any value in config['lunr_excludes'] or with date['exclude_from_search']
       # The main content from each page is extracted and saved to disk as json
       def generate(site)
-        puts 'Running the search indexer...'
+        Jekyll.logger.info "Lunr:", 'Creating search index...'
 
+        @site = site
         # gather pages and posts
         items = pages_to_index(site)
         content_renderer = PageRenderer.new(site)
         index = []
 
-        items.each do |item|
+        items.each_with_index do |item, i|
           entry = SearchEntry.create(item, content_renderer)
 
           entry.strip_index_suffix_from_url! if @strip_index_html
           entry.strip_stopwords!(stopwords, @min_length) if File.exists?(@stopwords_file) 
-          
-          index << {
-            :title => entry.title, 
-            :url => entry.url,
-            :date => entry.date,
-            :categories => entry.categories,
-            :body => entry.body
+
+          doc = {
+            "id" => i,
+            "title" => entry.title,
+            "url" => entry.url,
+            "date" => entry.date,
+            "categories" => entry.categories,
+            "body" => entry.body
           }
+
+          @index.add(doc)
+          doc.delete("body")
+          @docs[i] = doc
           
-          puts 'Indexed ' << "#{entry.title} (#{entry.url})"
+          Jekyll.logger.debug "Lunr:", (entry.title ? "#{entry.title} (#{entry.url})" : entry.url)
         end
         
-        json = JSON.generate({:entries => index})
+        FileUtils.mkdir_p(File.join(site.dest, @js_dir))
+        filename = File.join(@js_dir, 'index.json')
         
-        # Create destination directory if it doesn't exist yet. Otherwise, we cannot write our file there.
-        Dir::mkdir(site.dest) unless File.directory?(site.dest)
-        
-        # File I/O: create search.json file and write out pretty-printed JSON
-        filename = 'search.json'
-        
-        File.open(File.join(site.dest, filename), "w") do |file|
-          file.write(json)
+        total = {
+          "docs" => @docs,
+          "index" => @index.to_hash
+        }
+
+        filepath = File.join(site.dest, filename)
+        File.open(filepath, "w") { |f| f.write(total.to_json(:max_nesting => 150)) }
+        Jekyll.logger.info "Lunr:", "Index ready (lunr.js v#{@lunr_version})"
+        added_files = [filename]
+
+        site_js = File.join(site.dest, @js_dir)
+        # If we're using the gem, add the lunr and search JS files to the _site
+        if File.expand_path(site_js) != File.dirname(@lunr_path)
+          extras = Dir.glob(File.join(File.dirname(@lunr_path), "*.min.js"))
+          FileUtils.cp(extras, site_js)
+          extras.map! { |min| File.join(@js_dir, File.basename(min)) }
+          Jekyll.logger.debug "Lunr:", "Added JavaScript to #{@js_dir}"
+          added_files.push(*extras)
         end
 
-        # Keep the search.json file from being cleaned by Jekyll
-        site.static_files << SearchIndexFile.new(site, site.dest, "/", filename)
+        # Keep the written files from being cleaned by Jekyll
+        added_files.each do |filename|
+          site.static_files << SearchIndexFile.new(site, site.dest, "/", filename)
+        end
       end
 
-    private
+      private
       
       # load the stopwords file
       def stopwords
         @stopwords ||= IO.readlines(@stopwords_file).map { |l| l.strip }
       end
+
+      def output_ext(doc)
+        if doc.is_a?(Jekyll::Document)
+          Jekyll::Renderer.new(@site, doc).output_ext
+        else
+          doc.output_ext
+        end
+      end
       
       def pages_to_index(site)
         items = []
-        
-        # deep copy pages
+
+        # deep copy pages and documents (all collections, including posts)
         site.pages.each {|page| items << page.dup }
-        site.posts.each {|post| items << post.dup }
+        site.documents.each {|document| items << document.dup }
 
         # only process files that will be converted to .html and only non excluded files 
-        items.select! {|i| i.output_ext == '.html' && ! @excludes.any? {|s| (i.url =~ Regexp.new(s)) != nil } } 
+        items.select! {|i| output_ext(i) == '.html' && ! @excludes.any? {|s| (i.url =~ Regexp.new(s)) != nil } }
         items.reject! {|i| i.data['exclude_from_search'] } 
         
         items
       end
     end
+  end
+end
+require "v8"
+require "json"
+
+class V8::Object
+  def to_json
+    @context['JSON']['stringify'].call(self)
+  end
+
+  def to_hash
+    JSON.parse(to_json, :max_nesting => 150)
   end
 end
 require 'nokogiri'
@@ -98,12 +163,31 @@ module Jekyll
         @site = site
       end
       
+      # render item, but without using its layout
+      def prepare(item)
+        layout = item.data["layout"]
+        begin
+          item.data.delete("layout")
+
+          if item.is_a?(Jekyll::Document)          
+            output = Jekyll::Renderer.new(@site, item).run
+          else
+            item.render({}, @site.site_payload)
+            output = item.output  
+          end
+        ensure
+          # restore original layout
+          item.data["layout"] = layout
+        end
+      
+        output
+      end
+
       # render the item, parse the output and get all text inside <p> elements
       def render(item)
-        item.render(@site.layouts, @site.site_payload)
-        doc = Nokogiri::HTML(item.output)
-        paragraphs = doc.search('//text()').map {|t| t.content }
-        paragraphs = paragraphs.join(" ").gsub("\r", " ").gsub("\n", " ").gsub("\t", " ").gsub(/\s+/, " ")
+        layoutless = item.dup
+
+        Nokogiri::HTML(prepare(layoutless)).text
       end
     end
   end  
@@ -114,27 +198,22 @@ module Jekyll
   module LunrJsSearch
     class SearchEntry
       def self.create(page_or_post, renderer)
-        return create_from_post(page_or_post, renderer) if page_or_post.is_a?(Jekyll::Post)
-        return create_from_page(page_or_post, renderer) if page_or_post.is_a?(Jekyll::Page)
-        raise 'Not supported'
-      end
-      
-      def self.create_from_page(page, renderer)
-        title, url = extract_title_and_url(page)
-        body = renderer.render(page)
-        date = nil
-        categories = []
-        
-        SearchEntry.new(title, url, date, categories, body)
-      end
-      
-      def self.create_from_post(post, renderer)
-        title, url = extract_title_and_url(post)
-        body = renderer.render(post)
-        date = post.date
-        categories = post.categories
-        
-        SearchEntry.new(title, url, date, categories, body)
+        case page_or_post
+        when Jekyll::Page, Jekyll::Document
+          date = nil
+          categories = []
+        else 
+          if defined?(Jekyll::Post) and page_or_post.is_a?(Jekyll::Post)
+            date = page_or_post.date
+            categories = page_or_post.categories
+          else
+            raise 'Not supported'
+          end
+        end
+        title, url = extract_title_and_url(page_or_post)
+        body = renderer.render(page_or_post)
+
+        SearchEntry.new(title, url, date, categories, body, renderer)
       end
 
       def self.extract_title_and_url(item)
@@ -142,10 +221,10 @@ module Jekyll
         [ data['title'], data['url'] ]
       end
 
-      attr_reader :title, :url, :date, :categories, :body
+      attr_reader :title, :url, :date, :categories, :body, :collection
       
-      def initialize(title, url, date, categories, body)
-        @title, @url, @date, @categories, @body = title, url, date, categories, body
+      def initialize(title, url, date, categories, body, collection)
+        @title, @url, @date, @categories, @body, @collection = title, url, date, categories, body, collection
       end
       
       def strip_index_suffix_from_url!
@@ -164,16 +243,16 @@ module Jekyll
 end
 module Jekyll
   module LunrJsSearch  
-	  class SearchIndexFile < Jekyll::StaticFile
-	    # Override write as the search.json index file has already been created 
-	    def write(dest)
-	      true
-	    end
-	  end
+    class SearchIndexFile < Jekyll::StaticFile
+      # Override write as the index.json index file has already been created 
+      def write(dest)
+        true
+      end
+    end
   end
 end
 module Jekyll
-	module LunrJsSearch
-  		VERSION = "0.1.1"
-  	end
+  module LunrJsSearch
+    VERSION = "3.0.0"
+  end
 end
