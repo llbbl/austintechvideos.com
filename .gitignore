@@ -5,3 +5,8 @@ bower_components/
 js/vendor/
 css/vendor/
 .vagrant/
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
