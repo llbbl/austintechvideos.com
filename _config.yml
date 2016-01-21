@@ -10,7 +10,7 @@ url: ""
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:month/:day/:slug/
 exclude: ['node_modules', 'bower_components']
 
 defaults:
