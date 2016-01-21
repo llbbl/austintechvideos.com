@@ -6,7 +6,7 @@
             <div id='categorieswrapper'>
                 {% for category in site.categories %}
                 <li>
-                    <a name="{{ category | first }}" href="/categories/{{ category | first | replace: ' ', '-' | replace: '.', '-' }}">
+                    <a name="{{ category | first }}" href="/categories/{{ category | first | slugify }}">
                     {{ category | first }}
                     </a>
                 </li>
