@@ -5,7 +5,7 @@
 
 This is the current version of the ATV website. We used to be on wordpress, but transitioned over to Jekyll to make it 
 easier for everyone to contribute. If you have videos you would like to be posted to the site all you need to do is 
-submit a pull request!
+submit a pull request! Upgraded everything so it is working with more current versions of things, Jekyll 3 and Ruby 2.2.x. 
 
 ## Interested in Contributing?
 
@@ -29,9 +29,9 @@ We are using Trello for easy task tracking. [AustinTechVideos on Trello](https:/
 However ... on a clean Ubuntu here is how to install it:
 
 ``` 
-apt-get install ruby ruby1.9.1-full make nodejs npm
+curl -L https://get.rvm.io | bash -s stable --ruby
 gem install jekyll
-gem install nokogiri json
+gem install nokogiri json fileutils therubyracer
 ```  
 
 ### Category Plugin
