@@ -2,7 +2,7 @@
 layout: post
 title: Building Search Engines with Sphinx and PHP
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Search

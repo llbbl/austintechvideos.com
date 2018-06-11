@@ -6,13 +6,15 @@
   "license": "The MIT License (MIT)",
   "private": true,
   "dependencies": {
-    "bower": "~1.4.1",
+    "@bower_components/bootstrap": "twbs/bootstrap#v3.0.3",
+    "@bower_components/fitvids": "davatron5000/FitVids.js#v1.1",
+    "@bower_components/jquery": "jquery/jquery-dist#v1.11.1",
     "grunt": "~0.4.5",
-    "grunt-exec": "*",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-copy": "~0.8.0",
     "grunt-contrib-less": "^1.0.1"
   },
   "engines": {
-    "npm": "2.1.x"
+    "yarn": ">= 1.0.0"
   }
 }

@@ -2,7 +2,7 @@
 layout: post
 title: Software Design Patterns in Laravel
 categories:
-- austinphp
+- AustinPHP
 tags:
 - php
 - laravel

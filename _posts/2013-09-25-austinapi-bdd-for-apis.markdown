@@ -2,7 +2,7 @@
 layout: post
 title: BDD for APIs
 categories:
-- austinapi
+- AustinAPI
 tags:
 - bdd
 videoid: hpSKByFc1ZI

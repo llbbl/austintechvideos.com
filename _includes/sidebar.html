@@ -4,7 +4,8 @@
         <a href="/search"><div id="searchblock">Search</div></a>
         <nav id="sidebar">
             <div id='categorieswrapper'>
-                {% for category in site.categories %}
+                {% assign items = site.categories | sort %}
+                {% for category in items %}
                 <li>
                     <a name="{{ category | first }}" href="/categories/{{ category | first | slugify }}">
                     {{ category | first }}
@@ -17,6 +18,7 @@
                 </div>
                 <ul class='dropdown-menu hidden-sm' id='categories'></ul>
             </div>
+            <a href="/category-tags">All Categories & Tags</a>
         </nav>
 
     </div>

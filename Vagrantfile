@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/bionic64"
   config.vm.hostname = "dev.austintechvideos.com"
 
   # Support for Parallels provider for Vagrant
@@ -15,13 +15,15 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.update_guest_tools = true
     v.memory = 1024
 
-    override.vm.box = "parallels/ubuntu-14.04"
+    override.vm.box = "generic/ubuntu1804"
   end
 
   # Customization for Virtualbox (default provider)
-  config.vm.provider :virtualbox do |vb|
+  config.vm.provider "virtualbox" do |vb|
+    # Disable ubuntu cloud logs
+    vb.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-    vb.customize ["modifyvm", :id, "--memory", "1024"]
+    vb.memory = 1024
   end
 
   if Vagrant.has_plugin?("hostsupdater")

@@ -2,7 +2,7 @@
 layout: post
 title: WTF is a tech evangelist? 
 categories:
-- refresh austin
+- Refresh Austin
 tags:
 - goodwill ambassadors
 videoid: iUlWfP_BFrY

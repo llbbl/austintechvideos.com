@@ -9,14 +9,23 @@ layout: default
             {% for post in site.posts %}
             <li>
                 <div class='postcard' videoid='{{ post.videoid }}'>
-                    <div class='posttitle' style="color:red;"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></div>
-                    <div class='postcategory' style="color:red;">{{post.categories}}</div>
+                    <div class='posttitle'><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></div>
+                    <div class='postcategory' category=" {{post.categories}} ">
+                        {% for category in post.categories %}
+                            <a href="/categories/{{ category | slugify }}/">{{category}}</a>
+                        {% endfor %}
+                    </div>
+                    <div class='posttags' tags=" {{post.tags}} ">
+                        {% for tag in post.tags %}
+                            <a href="/tag/{{ tag | slugify }}/">{{tag}}</a>
+                        {% endfor %}
+                    </div>
 
-                    <div class='posttimestamp' style="color:red;">{{ post.date | date: "%b %-d, %Y" }}</div>
+                    <div class='posttimestamp'>{{ post.date | date: "%b %-d, %Y" }}</div>
                     <div class='postcontent'>
                         <div class='youtube-thumbnail'>
                             <a class="post-link" href="{{ post.url }}">
-                                <img class='thumbnail-img' src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' data-src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' />
+                                <img class='thumbnail-img' src='http://img.youtube.com/vi/{{post.videoid}}/0.jpg' data-src='http://img.youtube.com/vi/{{post.videoid}}/1.jpg' />
                             </a>
                         </div>
                     </div>

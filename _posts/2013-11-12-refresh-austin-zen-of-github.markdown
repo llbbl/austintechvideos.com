@@ -2,7 +2,7 @@
 layout: post
 title: The Zen of Github flow
 categories:
-- refresh austin
+- Refresh Austin
 tags:
 - github
 videoid: EVucV0AiIMM

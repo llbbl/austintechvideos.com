@@ -2,7 +2,7 @@
 layout: post
 title: PHP 5.5 Features
 categories:
-- austinphp
+- AustinPHP
 tags:
 - php
 videoid: 5mOjbyLUm50

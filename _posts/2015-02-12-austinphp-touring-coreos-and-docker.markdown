@@ -2,7 +2,7 @@
 layout: post
 title: Touring CoreOS and Docker
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - CoreOS

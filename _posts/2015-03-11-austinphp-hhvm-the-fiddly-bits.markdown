@@ -2,7 +2,7 @@
 layout: post
 title: "HHVM: The Fiddly Bits"
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - PHP 7

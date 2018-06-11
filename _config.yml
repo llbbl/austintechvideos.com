@@ -11,7 +11,15 @@ url: ""
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:slug/
-exclude: ['node_modules', 'bower_components']
+exclude: [
+  'CNAME',
+  'Gruntfile.js',
+  'node_modules',
+  'package.json',
+  'README.md',
+  'Vagrantfile',
+  'yarn.lock',
+]
 
 defaults:
   -

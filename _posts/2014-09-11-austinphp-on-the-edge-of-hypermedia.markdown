@@ -2,7 +2,7 @@
 layout: post
 title: On the Edge of Hypermedia
 categories:
-- austinphp
+- AustinPHP
 tags:
 - 
 videoid: lZKloci-2YQ

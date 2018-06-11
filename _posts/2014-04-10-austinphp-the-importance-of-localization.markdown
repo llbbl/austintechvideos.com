@@ -2,7 +2,7 @@
 layout: post
 title: The Importance of Localization
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Localization

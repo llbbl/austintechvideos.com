@@ -2,7 +2,7 @@
 layout: post
 title: "Your code sucks! Five Tools for Evaluating the Quality of Your Code ~ Brandon Savage"
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Code Quality

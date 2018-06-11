@@ -2,7 +2,7 @@
 layout: post
 title: Intro to Linux Containers with Bradley Meck
 categories:
-- austin web architecture
+- Austin Web Architecture
 tags:
 - Web Architecture
 - Linux

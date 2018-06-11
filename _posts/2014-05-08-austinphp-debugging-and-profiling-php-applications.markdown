@@ -2,7 +2,7 @@
 layout: post
 title: Debugging and Profiling PHP Applications
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Profiling

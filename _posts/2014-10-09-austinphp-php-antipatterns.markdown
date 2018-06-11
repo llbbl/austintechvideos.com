@@ -2,7 +2,7 @@
 layout: post
 title: PHP Anti-Patterns
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Design Patterns

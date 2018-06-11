@@ -2,7 +2,7 @@
 layout: post
 title: How to train your client
 categories:
-- refresh austin
+- Refresh Austin
 tags:
 - design
 - clients
