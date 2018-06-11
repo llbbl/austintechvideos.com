@@ -2,7 +2,7 @@
 layout: post
 title: Using Gensim to do Latent Semantic Indexing of Text
 categories:
-- austinpython
+- AustinPython
 tags:
 - Python
 - Latent Semantic Indexing

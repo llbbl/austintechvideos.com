@@ -2,7 +2,7 @@
 layout: post
 title: Real World Data
 categories:
-- austinphp
+- AustinPHP
 tags:
 - stats
 - data analysis

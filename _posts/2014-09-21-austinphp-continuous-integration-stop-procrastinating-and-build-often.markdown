@@ -2,7 +2,7 @@
 layout: post
 title: Continuous Integration - Stop procrastinating and build often!
 categories:
-- austinphp
+- AustinPHP
 tags:
 - jenkins 
 - extreme programming

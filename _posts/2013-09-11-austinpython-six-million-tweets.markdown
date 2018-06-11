@@ -2,7 +2,7 @@
 layout: post
 title: 6 Million Tweets / Day with 200 Lines of Python
 categories:
-- austinpython
+- AustinPython
 tags:
 - Python
 - Twitter

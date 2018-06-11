@@ -2,7 +2,7 @@
 layout: post
 title: Agile for agencies
 categories:
-- refresh austin
+- Refresh Austin
 tags:
 - agile
 - methodologies

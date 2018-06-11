@@ -2,7 +2,7 @@
 layout: post
 title: Auto Scaling on Amazon EC2 with Matt Swain
 categories:
-- austin web architecture
+- Austin Web Architecture
 tags:
 - Web Architecture
 - Amazon Web Services

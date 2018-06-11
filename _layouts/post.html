@@ -10,12 +10,19 @@ layout: default
           </a>
       </div>
 
-
       <div id="ytbox" class='postcard full' videoid='{{page.videoid}}'>
           <div class='posttitle'> {{page.title}} </div>
-          <div class='postcategory' category=" {{page.categories}} "> {{page.categories}} </div>
+          <div class='postcategory' category=" {{page.categories}} ">
+              {% for category in page.categories %}
+                  <a href="/categories/{{ category | slugify }}/">{{category}}</a>
+              {% endfor %}
+          </div>
+          <div class='posttags' tags=" {{page.tags}} ">
+              {% for tag in page.tags %}
+                  <a href="/tag/{{ tag | slugify }}/">{{tag}}</a>
+              {% endfor %}
+          </div>
           <div class='posttimestamp'> {{page.timestamp}} </div>
-
 
           <div class='postcontent'>
               <div class='youtube-thumbnail'>

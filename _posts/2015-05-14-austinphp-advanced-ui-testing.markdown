@@ -2,7 +2,7 @@
 layout: post
 title: Advanced UI Testing
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - jQuery

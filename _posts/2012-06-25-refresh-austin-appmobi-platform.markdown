@@ -18,7 +18,7 @@ date: !binary |-
 date_gmt: !binary |-
   MjAxMi0wNi0yNSAwMzozOToyMSAtMDUwMA==
 categories:
-- refresh austin
+- Refresh Austin
 tags:
 - refresh
 - austin-refresh

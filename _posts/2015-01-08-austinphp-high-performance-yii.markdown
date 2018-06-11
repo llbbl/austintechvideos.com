@@ -2,7 +2,7 @@
 layout: post
 title: High Performance Yii
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Yii

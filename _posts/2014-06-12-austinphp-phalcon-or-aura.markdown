@@ -2,7 +2,7 @@
 layout: post
 title: Aura vs. Phalcon - Two Library Collections You Should Know About
 categories:
-- austinphp
+- AustinPHP
 tags:
 - PHP
 - Phalcon

@@ -2,7 +2,7 @@
 layout: post
 title: Developer VMs
 categories:
-- austinphp
+- AustinPHP
 tags:
 - vagrant
 - vm
