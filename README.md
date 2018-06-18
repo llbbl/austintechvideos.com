@@ -1,7 +1,6 @@
 # Austintechvideos.com Website
 ===========================
 
-[ ![Codeship Status for llbbl/austintechvideos.com](https://codeship.com/projects/5fe279d0-a1df-0133-8372-1ece657cc271/status?branch=master)](https://codeship.com/projects/128686)
 
 This is the current version of the ATV website. We used to be on wordpress, but transitioned over to Jekyll to make it 
 easier for everyone to contribute. If you have videos you would like to be posted to the site all you need to do is 
