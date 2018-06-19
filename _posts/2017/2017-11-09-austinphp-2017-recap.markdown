@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2017 Recap
+title: "2017 Recap of Web Development"
 categories:
 - AustinPHP
 tags:
