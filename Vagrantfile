@@ -35,8 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder ".", "/var/www/vagrant"
   config.vm.synced_folder ".", "/vagrant"
 
-  config.vm.provision "shell" do |s|
-    s.path = "_vagrant/vagrant_deploy.sh"
-  end
+  config.vm.provision "shell",  path: "_vagrant/vagrant_deploy.sh", run: "once"
+  config.vm.provision "shell",  path: "_vagrant/vagrant_run.sh", run: "always"
 
 end
