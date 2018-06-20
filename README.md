@@ -37,6 +37,14 @@ This will install:
 * [Jekyll](https://jekyllrb.com/)
   * [Lunr JS (Search) Plugin](https://github.com/slashdotdash/jekyll-lunr-js-search)
 
+Restarting the box will require manually running the jekyll serve:
+
+```bash
+vagrant ssh
+cd /vagrant
+sudo jekyll serve --host 0.0.0.0 --port 80 --force_polling
+```
+
 
 #### Category Plugin
 * We are using recurser's plugin to generate the categories. It is one part of a set of plugins that they have created.
