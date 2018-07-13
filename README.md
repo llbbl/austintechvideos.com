@@ -61,6 +61,15 @@ cd /vagrant
 jekyll build
 ```
 
+### Building The Site [without Vagrant]
+
+```
+yarn
+yarn grunt less copy
+gem install bundler jekyll nokogiri json jekyll-lunr-js-search
+jekyll build
+```
+
 
 ### License
 See the [LICENSE](LICENSE.md) file (MIT)
