@@ -10,7 +10,7 @@ submit a pull request! Upgraded everything so it is working with more current ve
 
 Things we could use help with:
 * CSS improvements
-  * The search and navigation styling
+* The search and navigation styling
 * Need to add Pagination on the main page and long category pages
 * Help screening the videos that need to be posted and generating the markdown files
 * Get Disqus working so we have comments again
@@ -32,7 +32,6 @@ vagrant up
 
 This will install:
 * [NodeJS](https://nodejs.org)
-* [Yarn](https://yarnpkg.com)
 * [Ruby](https://www.ruby-lang.org)
 * [Jekyll](https://jekyllrb.com/)
 * [Lunr JS (Search) Plugin](https://github.com/slashdotdash/jekyll-lunr-js-search)
@@ -64,8 +63,8 @@ jekyll build
 ### Building The Site [without Vagrant]
 
 ```
-yarn
-yarn grunt less copy
+pnpm install
+grunt less
 gem install bundler jekyll nokogiri json jekyll-lunr-js-search
 jekyll build
 ```

@@ -7,12 +7,6 @@ module.exports = function(grunt) {
             main: {
                 files: [
 
-                    // includes files within path and its sub-directories
-                    {expand: true, flatten: true, src: ['node_modules/@bower_components/jquery/dist/*'], dest: 'js/vendor/'},
-                    {expand: true, flatten: true, src: ['node_modules/@bower_components/bootstrap/dist/js/*'], dest: 'js/vendor/'},
-                    {expand: true, flatten: true, src: ['node_modules/@bower_components/bootstrap/dist/css/*'], dest: 'css/vendor/'},
-                    {expand: true, flatten: true, src: ['node_modules/@bower_components/fitvids/jquery.fitvids.js'], dest: 'js/vendor/'}
-
                 ]
             }
         },
