@@ -35,7 +35,7 @@ This will install:
 * [Yarn](https://yarnpkg.com)
 * [Ruby](https://www.ruby-lang.org)
 * [Jekyll](https://jekyllrb.com/)
-  * [Lunr JS (Search) Plugin](https://github.com/slashdotdash/jekyll-lunr-js-search)
+* [Lunr JS (Search) Plugin](https://github.com/slashdotdash/jekyll-lunr-js-search)
 
 Restarting the box will require manually running the jekyll serve:
 
